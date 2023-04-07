@@ -115,5 +115,3 @@ tag_plugins:
     blobcat: https://raw.githubusercontent.com/gh/norevi/waline-blobcatemojis@1.0/blobs/%s.png
     bbpng: https://emoj.ml/blob%s.png
     bbgif: https://emoj.ml/ablob%s.gif
-inject:
-  head:- <link rel="stylesheet" href="/theme/css/mouse.css">

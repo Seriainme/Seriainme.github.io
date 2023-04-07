@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+
+body {
+   cursor:url(https://raw.githubusercontent.com/Seriainme/blobemoji/0f542cd353a4ebe65d94df6b0ab6324cf132bc04/neo.cur),
+         default;
+ }
+
+
+</style>
+</head>
+<html lang='<%- page.lang %>'>
+<%- partial('_partial/head') %>
+<body>
+
+  <%- partial('_partial/cover/index') %>
+  <div class='l_body' id='start'>
+    <aside class='l_left' layout='<%- page.layout %>'>
+    <%- partial('_partial/sidebar/index') %>
+    </aside>
+    <div class='l_main<%- page.content ? "" : " list" %>'>
+      <%- partial('_partial/main/header/index') %>
+      <%- body %>
+      <%- partial('_partial/main/footer') %>
+      <%- partial('_partial/menubtn') %>
+    </div>
+  </div>
+  <div class='scripts'>
+    <%- partial('_partial/scripts/index') %>
+  </div>
+
+<script type="module">
+  import { bubbleCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+
+  new bubbleCursor();
+</script>
+
+
+</body>
+</html>
