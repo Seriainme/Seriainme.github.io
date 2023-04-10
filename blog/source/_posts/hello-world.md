@@ -6,10 +6,17 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 ## Quick Start
 
 ### Create a new post
-
-{% emoji blobcat ablobcatrainbow %}
+正常1.0:
+置到Stellar中吧{% emoji blobcat ablobcatrainbow %}阿达
+测试2.0:
 {% emoji bbpng enjoy %}
+{% emoji bbgif attention %}   
 
+自定义表情包:
+查看原来的代码里怎么处理的
+show <img src="https://cdn.discordapp.com/emojis/422189446612385792.gif?size=128" width=30px/> here
+
+ 
 ``` bash
 $ hexo new "My New Post"
 ```

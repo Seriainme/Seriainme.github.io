@@ -233,6 +233,8 @@ tag_plugins:
   # {% emoji %}
   emoji:
     default: https://gcore.jsdelivr.net/gh/cdn-x/emoji/qq/${name}.gif
+    bbpng: https://emoj.ml/blob%s.png
+    bbgif: https://emoj.ml/ablob%s.gif
     twemoji: https://gcore.jsdelivr.net/gh/twitter/twemoji/assets/svg/${name}.svg
     qq: https://gcore.jsdelivr.net/gh/cdn-x/emoji/qq/${name}.gif
     aru: https://gcore.jsdelivr.net/gh/cdn-x/emoji/aru-l/${name}.gif

@@ -103,15 +103,10 @@ theme: stellar
 deploy:
   type: ''
 # my customize setting
+
 #tag_plugins:
-#  # {% emoji %}
+#  # {% ablock %} / {% note %}
 #  emoji:
-#    default:
-#    blobcat: https://raw.githubusercontent.com/gh/norevi/waline-blobcatemojis@1.0/blobs/%s.png
-tag_plugins:
-#  {% emoji %}
-  emoji:
-    default:
-    blobcat: https://raw.githubusercontent.com/gh/norevi/waline-blobcatemojis@1.0/blobs/%s.png
-    bbpng: https://emoj.ml/blob%s.png
-    bbgif: https://emoj.ml/ablob%s.gif
+#    default: https://gcore.jsdelivr.net/gh/cdn-x/emoji/qq/${name}.gif
+#    bbpng: https://emoj.ml/blob%s.png
+#    bbgif: https://emoj.ml/ablob%s.gif
