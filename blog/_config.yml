@@ -102,11 +102,3 @@ theme: stellar
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-# my customize setting
-
-#tag_plugins:
-#  # {% ablock %} / {% note %}
-#  emoji:
-#    default: https://gcore.jsdelivr.net/gh/cdn-x/emoji/qq/${name}.gif
-#    bbpng: https://emoj.ml/blob%s.png
-#    bbgif: https://emoj.ml/ablob%s.gif
