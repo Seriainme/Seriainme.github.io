@@ -363,7 +363,7 @@ style:
   smooth_scroll: true # true / false
   font-size:
     root: 16px
-    body: 30px # 1.5rem
+    body: 15px # or use rem to define the size like 1.5rem
 #    body: .9375rem # 15px
     code: 85% # 14px
     codeblock: 0.8125rem # 13px
