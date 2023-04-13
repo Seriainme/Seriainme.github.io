@@ -6,19 +6,31 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 ## Quick Start
 
 ### Create a new post
-正常1.0:
+[^]: reference
+
+:
 置到Stellar中吧{% emoji blobcat ablobcatrainbow %}阿达
 
-
 测试2.0:
-{% emoji bbpng enjoy %}
-{% emoji bbgif attention %}   
+{% emoji bbpng enjoy %} me here {% emoji bbgif attention %}   
 
 自定义表情包:
-查看原来的代码里怎么处理的
-show <img src="https://cdn.discordapp.com/emojis/422189446612385792.gif?size=128" width=30px/> here
 
- 
+~~查看原来的代码里怎么处理的~~
+show {% emoji mine 422189446612385792 %} here
+
+https://www.bing.com/
+
+
+
+```python
+import datetime
+lic = listb+lista
+print(len(lic))
+```
+
+
+
 ``` bash
 $ hexo new "My New Post"
 ```
