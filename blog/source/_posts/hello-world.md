@@ -19,17 +19,31 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 ~~查看原来的代码里怎么处理的~~
 show {% emoji mine 422189446612385792 %} here
 
-https://www.bing.com/
+支持多彩标记，包括：{% mark 默认 %} {% mark 红 color:red %} {% mark 橙 color:orange %} {% mark 黄 color:yellow %} {% mark 绿 color:green %} {% mark 青 color:cyan %} {% mark 蓝 color:blue %} {% mark 紫 color:purple %} {% mark 浅 color:light %} {% mark 深 color:dark %} {% mark 警告 color:warning %} {% mark 错误 color:error %} 一共 12 种颜色。
+
+{% note color:green 一共支持12种颜色，可以满足几乎所有的需求了。 color 可设置 red、orange、yellow、green、cyan、blue、purple、light、dark、warning、error 几种取值。 %}
+
+{% copy curl -s https://sh.xaox.cc/install | sh %}
+{% copy width:max curl -s https://sh.xaox.cc/install | sh %}
+{% copy git:https xaoxuu.com/hexo-theme-stellar %}
+{% copy git:ssh xaoxuu.com/hexo-theme-stellar %}
+{% copy git:gh xaoxuu.com/hexo-theme-stellar %}
 
 
-
+{% copy  width:max 
 ```python
+
 import datetime
 lic = listb+lista
 print(len(lic))
 ```
+%}
 
 
+{% radio 没有勾选的单选框 %}
+{% radio checked:true 已勾选的单选框 %}
+
+{% frame iphone11 img:/assets/wiki/prohud/toast/demo-loading.png video:/assets/wiki/prohud/toast/demo-loading.mp4 focus:top %}
 
 ``` bash
 $ hexo new "My New Post"
