@@ -20,6 +20,7 @@ sidebar:
     avatar: '[https://raw.githubusercontent.com/Seriainme/blobemoji/main/mkmk.webp](/about/)'
 #    avatar: '[https://gitee.com/morel/blobemoji/raw/main/mkmk.webp](/about/)'
     title: 'Morel' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
+    subtitle:  '标题1'
   menu:
      post: '[btn.blog](/)'
      wiki: '[btn.wiki](/wiki/)'
@@ -184,32 +185,32 @@ comments:
 ######## Footer ########
 footer:
   social:
-    # github:
-    #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/08a41b181ce68.svg"/>'
-    #   url: /
-    # music:
-    #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/3845874.svg"/>'
-    #   url: /
-    # unsplash:
-    #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/3616429.svg"/>'
-    #   url: /
-    # comments:
-    #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/942ebbf1a4b91.svg"/>'
-    #   url: /about/#comments
+     github:
+       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/08a41b181ce68.svg"/>'
+       url: /
+     music:
+       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/3845874.svg"/>'
+       url: /
+     unsplash:
+       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/3616429.svg"/>'
+       url: /
+     comments:
+       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/942ebbf1a4b91.svg"/>'
+       url: /about/#comments
   sitemap:
-    # '博客':
-    #   - '[近期](/)'
-    #   - '[分类](/)'
-    #   - '[标签](/)'
-    #   - '[归档](/)'
-    # '项目':
-    #   - '[开源库](/)'
-    # '社交':
-    #   - '[友链](/)'
-    #   - '[留言板](/)'
-    # '更多':
-    #   - '[关于本站](/)'
-    #   - '[GitHub](/)'
+     '博客':
+       - '[近期](/)'
+       - '[分类](/)'
+       - '[标签](/)'
+       - '[归档](/)'
+     '项目':
+       - '[开源库](/)'
+     '社交':
+       - '[友链](/)'
+       - '[留言板](/)'
+     '更多':
+       - '[关于本站](/)'
+       - '[GitHub](/)'
   content: | # 支持 Markdown 格式
     耗尽一吨脑汁，使用[Hexo框架](https://github.com/hexojs/hexo) 和 [Stellar主题](https://github.com/xaoxuu/hexo-theme-stellar) 创建。
     所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。

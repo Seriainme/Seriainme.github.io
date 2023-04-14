@@ -23,27 +23,27 @@ show {% emoji mine 422189446612385792 %} here
 
 {% note color:green 一共支持12种颜色，可以满足几乎所有的需求了。 color 可设置 red、orange、yellow、green、cyan、blue、purple、light、dark、warning、error 几种取值。 %}
 
-{% copy curl -s https://sh.xaox.cc/install | sh %}
-{% copy width:max curl -s https://sh.xaox.cc/install | sh %}
-{% copy git:https xaoxuu.com/hexo-theme-stellar %}
-{% copy git:ssh xaoxuu.com/hexo-theme-stellar %}
-{% copy git:gh xaoxuu.com/hexo-theme-stellar %}
+  
+
+```bash
+curl -s https://sh.xaox.cc/install
+```
 
 
-{% copy  width:max 
+
+
 ```python
-
 import datetime
 lic = listb+lista
 print(len(lic))
 ```
-%}
+
+
 
 
 {% radio 没有勾选的单选框 %}
 {% radio checked:true 已勾选的单选框 %}
 
-{% frame iphone11 img:/assets/wiki/prohud/toast/demo-loading.png video:/assets/wiki/prohud/toast/demo-loading.mp4 focus:top %}
 
 ``` bash
 $ hexo new "My New Post"
@@ -74,3 +74,4 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+{% navbar active:1 [文章](/) [项目](/wiki/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) %}
