@@ -362,17 +362,18 @@ plugins:
 highlight:
   enable: true
   line_number: False
-  auto_detect: false
+  auto_detect: true
   tab_replace: '    '
   wrap: true
   hljs: true
+
 
 style:
   darkmode: auto # auto / always / false
   smooth_scroll: true # true / false
   font-size:
     root: 20px
-    body: 25px # or use rem to define the size like 1.5rem
+    body: 20px # or use rem to define the size like 1.5rem
 #    body: .9375rem # 15px
     code: 85% # 14px
     codeblock: 0.8125rem # 13px
@@ -424,10 +425,3 @@ api_host:
   gist: https://gist.github.com
 
 
-inject:
-  head:
-    - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/highlightjs/cdn-release@11.5.0/build/styles/atom-one-dark.min.css">
-  script:
-    - https://code.jquery.com/jquery-3.5.1.min.js
-    - https://gitee.com/morel/blobemoji/raw/main/snowlike.js
-    - https://raw.githubusercontent.com/Seriainme/blobemoji/main/snowlike.js
