@@ -405,7 +405,8 @@ style:
     background: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp
   codeblock:
     scrollbar: 4px
-    highlightjs_theme: https://gcore.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/atom-one-dark.min.css
+#    highlightjs_theme: https://gcore.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/atom-one-dark.min.css
+    highlightjs_theme: /custom/css/zycode.css
   loading:
     loading: 正在加载
     error: 加载失败，请稍后重试。
@@ -425,3 +426,7 @@ api_host:
   gist: https://gist.github.com
 
 
+# 自定义引入css,js
+inject:
+  script:
+    - <script type="text/javascript" src="/custom/js/zycode.js"></script>

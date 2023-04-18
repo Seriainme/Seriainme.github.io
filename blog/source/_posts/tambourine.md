@@ -1,18 +1,6 @@
 ---
 title: The silent tambourine
-date: 2022-07-13
-categories:
-- 生活随笔
-tags:
-- le muguet
-pin: false
-author: Morel
-toc: true
-comments: false
-typora-root-url: "../../Seriainme.github.io"
-math: false
-mermaid: true
-
+date: 2023-04-13 12:00:00
 ---
 When I randomly tapped on [ablo](https://cn.bing.com/search?form=MOZLBR&pc=MOZI&q=ablo) the other day ,
 a msg popped up informing me of the coming shutdown of the community in July.
