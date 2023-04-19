@@ -2,6 +2,7 @@
 title: The silent tambourine
 date: 2023-04-13 12:00:00
 tags: ['dwelling in the past']
+password: hello
 ---
 测试中文字体
 
