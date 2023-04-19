@@ -426,7 +426,3 @@ api_host:
   gist: https://gist.github.com
 
 
-# 自定义引入css,js
-inject:
-  script:
-    - <script type="text/javascript" src="/custom/js/zycode.js"></script>
