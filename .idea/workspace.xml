@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="改变了页面宽度的布局，在root width-main 的选项">
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="对文章进行加密">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/tambourine.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/tambourine.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editorconfig.notification" value="null" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/themes/stellar/scripts" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -91,7 +91,7 @@
       <workItem from="1681885355756" duration="375000" />
       <workItem from="1681885838212" duration="15000" />
       <workItem from="1681885956736" duration="68000" />
-      <workItem from="1681886141065" duration="4030000" />
+      <workItem from="1681886141065" duration="6077000" />
     </task>
     <task id="LOCAL-00001" summary="basic">
       <created>1680833492521</created>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681890142056</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="对文章进行加密">
+      <created>1681890405176</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681890405176</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +250,8 @@
     <MESSAGE value="delete shit code n files" />
     <MESSAGE value="my blog files" />
     <MESSAGE value="改变了页面宽度的布局，在root width-main 的选项" />
-    <option name="LAST_COMMIT_MESSAGE" value="改变了页面宽度的布局，在root width-main 的选项" />
+    <MESSAGE value="对文章进行加密" />
+    <option name="LAST_COMMIT_MESSAGE" value="对文章进行加密" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />
