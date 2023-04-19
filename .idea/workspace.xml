@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="delete shit code n files" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2O2ayzjSKOVSysr3IzZnF5xfjIr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/themes/stellar/scripts" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\stellar-setup\blog\themes\stellar\scripts" />
+      <recent name="D:\stellar-setup\blog\themes\stellar\source\font" />
+      <recent name="D:\stellar-setup\blog\themes\stellar\layout" />
+      <recent name="D:\stellar-setup\blog\themes\stellar\source\diy_font" />
+      <recent name="D:\stellar-setup\blog\source\_posts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\stellar-setup\blog\themes\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.djtx.js">
+    <configuration name="bubbleCursor.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/blog/themes/stellar/source/js/bubbleCursor.js" working-dir="$PROJECT_DIR$/blog/themes/stellar/source/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="djtx.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/blog/themes/stellar/layout/djtx.js" working-dir="$PROJECT_DIR$/blog/themes/stellar/layout">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.djtx.js" />
+        <item itemvalue="Node.js.bubbleCursor.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="" />
+      <created>1680761388858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680761388858</updated>
+      <workItem from="1680761390313" duration="25321000" />
+      <workItem from="1681112868456" duration="5888000" />
+      <workItem from="1681118862162" duration="671000" />
+      <workItem from="1681119555190" duration="8470000" />
+      <workItem from="1681198965140" duration="5470000" />
+      <workItem from="1681221990956" duration="12250000" />
+      <workItem from="1681286937216" duration="6124000" />
+      <workItem from="1681293771039" duration="651000" />
+      <workItem from="1681348454862" duration="4231000" />
+      <workItem from="1681354776273" duration="12880000" />
+      <workItem from="1681439863611" duration="14532000" />
+      <workItem from="1681788211532" duration="378000" />
+      <workItem from="1681788733884" duration="9658000" />
+      <workItem from="1681885355756" duration="375000" />
+      <workItem from="1681885838212" duration="15000" />
+      <workItem from="1681885956736" duration="68000" />
+    </task>
+    <task id="LOCAL-00001" summary="basic">
+      <created>1680833492521</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680833492521</updated>
+    </task>
+    <task id="LOCAL-00002" summary="basic">
+      <created>1680861881021</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680861881021</updated>
+    </task>
+    <task id="LOCAL-00003" summary="basic">
+      <created>1681121743626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681121743626</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <created>1681198827561</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681198827561</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1681207765214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681207765214</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1681290426177</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681290426177</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1681292909551</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681292909551</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1681293489710</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681293489710</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1681367847249</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681367847249</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1681368570802</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681368570802</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <created>1681380478515</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681380478515</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update">
+      <created>1681452188173</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681452188173</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <created>1681466928255</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681466928255</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <created>1681795919847</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681795919847</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <created>1681812586876</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681812586876</updated>
+    </task>
+    <task id="LOCAL-00016" summary="delete shit code n files">
+      <created>1681885999426</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681885999426</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="basic" />
+    <MESSAGE value="update" />
+    <MESSAGE value="delete shit code n files" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete shit code n files" />
+  </component>
+  <component name="YamllintSettings">
+    <option name="binPath" value="yamllint" />
+  </component>
+</project>

@@ -1,0 +1,220 @@
+@require('_defines/const')
+
+html,
+body,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+  // 修改选中字符的颜色
+/* webkit, opera, IE9 */
+::selection {
+    background: #00c4b6;
+    color: #f7f7f7;
+}
+/* firefox */
+::-moz-selection {
+    background: #00c4b6;
+    color: #f7f7f7;
+}
+
+// 删除线
+del {
+  color: #b35888;
+  background: gainsboro;
+  margin: 2px;
+}
+
+//页脚
+.footer content {color: #ff7600;}
+
+  // 文章内链接文本样式
+.post-body p a{
+    color: #fc6423;
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423;
+    &:hover {
+        color: #fc6423;
+        border-bottom: none;
+        border-bottom: 1px solid #fc6423;
+    }
+}
+
+// 代码块 styles.
+code {
+    color: #ff7600;
+    background: #ff7600;
+    margin: 4px;
+}
+
+//复制按钮
+.copy-btn {
+    color: #ff7600;
+    background: #fff;
+    border: 1px solid #ff7600;
+}
+blockquote{
+    margin: 6px 0;
+    color: #2e405b;
+    border-left: 4px solid rgb(16, 152, 173);
+    background-color: rgb(227, 242, 253);
+    /* border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; */
+    margin-bottom: 20px;
+	border-radius: 3px
+}
+.copy-btn:hover {
+  border-color: #ff7600;
+  color: #fff;
+  background: #ff7600;
+}
+
+.posts-expand {
+    padding-top: 10px;
+}
+// 鼠标移动至文章标题时的效果
+ .posts-expand .post-title-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #49b1f5;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+// 文章标题动态效果
+.posts-expand .post-title-link::before {
+    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
+}
+
+
+.posts-expand .post-title {
+    font-size: 66px;
+    font-weight: 700;
+}
+
+
+.post h2, .post h3, .post h4, .post h5, .post h6 {
+
+    border-left: 4px solid #f27c8d;
+    margin-left: -40px;
+    padding-left: 32px;
+	border-bottom: none;
+}
+
+// code above is my custom setting from hexo_other_theme.styl
+// 通用主题色
+$color-theme = convert(hexo-config('style.color.theme'))
+$color-accent = convert(hexo-config('style.color.accent'))
+$color-link = convert(hexo-config('style.color.link'))
+$color-button = convert(hexo-config('style.color.button'))
+$color-hover = convert(hexo-config('style.color.hover'))
+
+// 动态颜色
+$color-background = convert(hexo-config('style.color.background'))
+$color-block = convert(hexo-config('style.color.block'))
+$color-code = convert(hexo-config('style.color.code'))
+$color-text = convert(hexo-config('style.color.text'))
+
+@font-face
+   font-family: 'ReenieBeanie-Regular'
+   src: url('/font/ReenieBeanie-Regular.ttf')
+   font-weight: bolder
+   font-style: normal
+
+@font-face
+   font-family: 'fusion-pixel-proportional'
+   src: url('/font/fusion-pixel-proportional.ttf')
+   font-weight: normal
+   font-style: normal
+
+$ff-body = system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif
+$ff-codeblock = Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif
+$ff-code = $ff-codeblock
+$ff-logo = $ff-body
+
+if hexo-config('style.font-family.body')
+  $ff-body = convert(hexo-config('style.font-family.body'))
+
+if hexo-config('style.font-family.code')
+  $ff-code = convert(hexo-config('style.font-family.code'))
+
+if hexo-config('style.font-family.codeblock')
+  $ff-codeblock = convert(hexo-config('style.font-family.codeblock'))
+
+if hexo-config('style.font-family.logo')
+  $ff-logo = convert(hexo-config('style.font-family.logo'))
+$ff-logo = 'ReenieBeanie-Regular', system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
+
+
+// font size 改变页面字体大小
+$fs-root = convert(hexo-config('style.font-size.root'))
+$fs-15 = .9375rem
+$fs-14 = .875rem
+$fs-13 = .8125rem
+$fs-12 = .75rem
+
+$fs-h1   = 1.75rem   // 32px
+$fs-h2   = 1.5rem    // 24px
+$fs-h3   = 1.375rem  // 22px
+$fs-h4   = 1.125rem  // 18px
+$fs-h5   = $fs-15
+$fs-h6   = $fs-12
+//$fs-p    = convert(hexo-config('style.font-size.body'))
+$fs-p    = 19px
+$fs-code = convert(hexo-config('style.font-size.code'))
+$fs-codeblock = convert(hexo-config('style.font-size.codeblock'))
+
+
+$border-card = convert(hexo-config('style.border-radius.card'))
+$border-block = convert(hexo-config('style.border-radius.block'))
+$border-bar = convert(hexo-config('style.border-radius.bar'))
+$border-image = convert(hexo-config('style.border-radius.image'))
+$border-button = 4px
+
+// 可以动态变化的属性
+:root
+  --width-left: 288px
+  --width-main: 720px
+  --gap-l: 16px
+  --gap-p: 1rem // gap for paragraph
+  --gap-p-compact: 0.75rem
+  // desktop 2k or larger
+  @media screen and (min-width: $device-2k)
+    --gap-l: 32px
+    --width-left: 352px
+    --width-main: 780px
+  // desktop 4k or larger
+  @media screen and (min-width: $device-4k)
+    --width-main: 860px
+    --gap-l: 64px
+  // iPad 竖屏
+  @media screen and (max-width: $device-tablet)
+    --width-left: 252px
+  // iPad 竖屏
+  @media screen and (max-width: $device-mobile-max)
+    --width-left: 288px
+
+
+
+// shadow
+$boxshadow-card = 0 1px 2px 0px rgba(0, 0, 0, 0.1)
+$boxshadow-float = 0 4px 8px 0px rgba(0, 0, 0, 0.1)
+$boxshadow-card-float = 0 2px 4px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 8px 16px 0px rgba(0, 0, 0, 0.1)
+$boxshadow-button = 0 0 2px 0px rgba(0, 0, 0, 0.04), 0 0 8px 0px rgba(0, 0, 0, 0.04)
+$boxshadow-block = 0 1px 4px 0px rgba(0, 0, 0, 0.02), 0 2px 8px 0px rgba(0, 0, 0, 0.02)
