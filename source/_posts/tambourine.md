@@ -1,7 +1,13 @@
 ---
 title: The silent tambourine
 date: 2023-04-13 12:00:00
+tags: ['dwelling in the past']
 ---
+测试中文字体
+
+会不会显得太大了，怎么把中文和英文区分开呢？
+
+
 When I randomly tapped on [ablo](https://cn.bing.com/search?form=MOZLBR&pc=MOZI&q=ablo) the other day ,
 a msg popped up informing me of the coming shutdown of the community in July.
 Had it not been for all the ridiculous things since covid, the bad news would be less trivial for me.
