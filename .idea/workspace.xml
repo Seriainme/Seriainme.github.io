@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment=" 1">
+    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="更改不同的分辨率">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/stellar/source/css/_custom.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/source/css/_custom.styl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,8 @@
       <workItem from="1681885956736" duration="68000" />
       <workItem from="1681886141065" duration="10195000" />
       <workItem from="1681953670876" duration="1043000" />
-      <workItem from="1681959434952" duration="2234000" />
+      <workItem from="1681959434952" duration="2417000" />
+      <workItem from="1681971468056" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="basic">
       <created>1680833492521</created>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681898630845</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="更改不同的分辨率">
+      <created>1681961861801</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681961861801</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +274,8 @@
     <MESSAGE value="改变了页面宽度的布局，在root width-main 的选项" />
     <MESSAGE value="对文章进行加密" />
     <MESSAGE value=" 1" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 1" />
+    <MESSAGE value="更改不同的分辨率" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改不同的分辨率" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />
