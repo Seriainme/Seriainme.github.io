@@ -188,6 +188,7 @@ $border-image = convert(hexo-config('style.border-radius.image'))
 $border-button = 4px
 
 // 可以动态变化的属性
+//default setting for laptop
 :root
   --width-left: 288px
   --width-main: 2020px
@@ -199,10 +200,12 @@ $border-button = 4px
     --gap-l: 32px
     --width-left: 352px
     --width-main: 780px
-  // desktop 4k or larger
+  // todo alter the setting for my home display
   @media screen and (min-width: $device-4k)
-    --width-main: 860px
-    --gap-l: 64px
+    --width-left: 388px
+    --width-main: 3020px
+    --gap-l: 16px
+
   // iPad 竖屏
   @media screen and (max-width: $device-tablet)
     --width-left: 252px
