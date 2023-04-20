@@ -19,7 +19,7 @@ sidebar:
   #    avatar: '[https://gitee.com/morel/blobemoji/raw/main/39.webp](/about/)'
   #    avatar: '[https://gitee.com/morel/blobemoji/raw/main/mkmk.webp](/about/)'
 #    avatar: '[https://raw.githubusercontent.com/Seriainme/blobemoji/main/mkmk.webp](/about/)'
-    avatar: "../images/mkmk.webp"
+    avatar: "/images/mkmk.webp"
     title: "Morel's blog" # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
     favicon: ""
     subtitle:  '标题1'
