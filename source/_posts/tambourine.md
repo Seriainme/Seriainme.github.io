@@ -28,7 +28,7 @@ She would often get home crying in schooldays.
 I remembered the tears dripping down her apple-like cheeks like unexpected raindrop.
 She did not seem sad tho.
 
-> <font color="springgreen">"Don't worry.I feel u there.I wish I can make u feel better.</font>
+> "Don't worry.I feel u there.I wish I can make u feel better.
 
 
 Then I offered her some advice that I had applied to.
