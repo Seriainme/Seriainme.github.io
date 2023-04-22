@@ -3,6 +3,13 @@ this project records my practice on setting up my blog on a new hexo theme of st
 
 
 
+问题集中在：
+
+插入自定义的css 和 js 样式
+
+blockquote引用字体样式设置 (待解决，用新的styl覆盖)
+
+
 ```
  inject:
   head:
@@ -14,20 +21,22 @@ this project records my practice on setting up my blog on a new hexo theme of st
     - https://raw.githubusercontent.com/Seriainme/blobemoji/main/snowlike.js
 ```
 
-点击的特效怎么插入
-
-插入自定义的css 和 js 样式
+ 
+# todo
+网站的favicon
 
 左上角logo部分的优化 小标题
 
-笔记功能
-
-blockquote引用字体样式设置 (待解决，用新的styl覆盖)
+笔记功能 i can not figure it out 
 
 侧边栏的美化
 
 自定义小组件
 
-字体的大小如何分开设置
+zh en 字体的大小如何分开设置
 
 购买域名，注册七牛云图床
+
+
+# what i learned
+更改hexo的config.yml 文件来更改设置，比如站点的信息

@@ -23,6 +23,8 @@ Elise was one of them.Her mother language was French.We both sucked at English, 
 She told me that the Philosophy exam would go on for 4 hours n it could not be worse.
 She would often get home crying in schooldays.
 
+{% mark "I dunno y.Perhaps it is not sadness or pressure that I feel. I could not tell or help it:( .Sry for seeing me like this.It is so embarrassing." color:green %}
+
 > <font color="pink">"I dunno y.Perhaps it is not sadness or pressure that I feel. I could not tell or help it:( .Sry for seeing me like this.It is so embarrassing."<br></font>
 
 I remembered the tears dripping down her apple-like cheeks like unexpected raindrop.
