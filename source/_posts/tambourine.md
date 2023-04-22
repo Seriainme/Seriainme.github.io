@@ -3,12 +3,14 @@ title: The silent tambourine
 date: 2023-04-13 12:00:00
 tags: ['dwelling in the past']
 message: Hey, passwore.
-password: hello
+password: ''
 ---
-测试中文字体
 
-会不会显得太大了，怎么把中文和英文区分开呢？
+在心率管家默默无闻地上线了一年多之后，现在终于打算来好好聊聊关于手机摄像头测量心率的那些事。本文参考了很多前辈的文章，将在文末列出。
 
+<!-- more -->
+
+后面是正文部分，在主页看不到。
 
 When I randomly tapped on [ablo](https://cn.bing.com/search?form=MOZLBR&pc=MOZI&q=ablo) the other day ,
 a msg popped up informing me of the coming shutdown of the community in July.
