@@ -1,0 +1,9 @@
+Notes:
+  title: 笔记
+  description:
+  index: false # 不在wiki列表中索引这个项目
+  sidebar: [toc]
+  tags: 笔记
+  sections:
+    'Hexo笔记': [100, 199]
+    '游戏': [200, 299]

@@ -23,8 +23,9 @@ sidebar:
     favicon: "/images/favicon.ico"
   menu:
      post: '[btn.blog](/)'
+     notes: '[笔记](/notes/)'
      wiki: '[btn.wiki](/wiki/)'
-     friends: '[友链](/friends/)'
+    #  friends: '[友链](/friends/)'
      about: '[关于](/about/)'
   # Sidebar widgets
   widgets:
