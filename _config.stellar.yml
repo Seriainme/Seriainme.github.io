@@ -27,6 +27,7 @@ sidebar:
     #  wiki: '[wiki](/wiki/)'
     #  friends: '[友链](/friends/)'
      about: '[我是啥](/about/)'
+    #  more: '[更多](/more/)'
   # Sidebar widgets
   widgets:
     #### 自动生成的页面 ####
@@ -73,6 +74,7 @@ article:
 
   related_posts:
     enable: true
+    title: 您可能感兴趣的文章
     max_count: 5
 
 
@@ -182,21 +184,23 @@ comments:
     darkMode: auto
 
 
+
+
 ######## Footer ########
 footer:
   social:
      github:
-       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/08a41b181ce68.svg"/>'
-       url: /
-     music:
-       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/3845874.svg"/>'
-       url: /
-     unsplash:
-       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/3616429.svg"/>'
-       url: /
-     comments:
-       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/942ebbf1a4b91.svg"/>'
-       url: /about/#comments
+       icon: '<img src="https://github.com/fluidicon.png"/>'
+       url: https://github.com/Seriainme
+     douban:
+       icon: '<img src="https://img3.doubanio.com/f/frodo/f73ecf95822d9d3e5cc2c03986847693876fd118/pics/douban_icon_320.png"/>'
+       url: https://www.douban.com/people/119418805
+     Spotify:
+       icon: '<img src="https://logospng.org/download/spotify/logo-spotify-icon-4096.png"/>'
+       url: https://open.spotify.com/user/2sq35nrfun0jlhuz41e555nts?si=inW9LOXcTautYKxZshr7rA&dd=1
+     goodreads:
+       icon: '<img src="https://s.gr-assets.com/assets/icons/goodreads_icon_1000x1000-aed808dec2093e20867b35cd56d9862d.png"/>'
+       url: https://www.goodreads.com/user/show/93377098-covus
   sitemap:
      '博客':
        - '[近期](/)'

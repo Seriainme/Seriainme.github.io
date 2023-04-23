@@ -4,7 +4,20 @@ date: 2023-04-13 12:00:00
 tags: ['dwelling in the past']
 message: Hey, passwore.
 password: ''
+references:
+  - title: '心跳之旅—💗—iOS用手机摄像头检测心率(PPG)'
+    url: https://punmy.cn/2016/07/28/15231176397746.html
+  - title: 'PPG光电容积脉搏波描记法技术概况'
+    url: https://www.jianshu.com/p/695c131abfa5
 ---
+
+<!-- 封面的海报标题相关设置
+banner: /blog_images/cover.webp
+poster: # 海报（可选，全图封面卡片）
+  topic: 标题上方的小字 # 可选
+  headline: 大标题 # 必选
+  caption: 标题下方的小字 # 可选
+  color: green   -->
 
 摘要内容
 <!-- more -->
