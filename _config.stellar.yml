@@ -22,11 +22,11 @@ sidebar:
     title: "Morel's blog" # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
     favicon: "/images/favicon.ico"
   menu:
-     post: '[btn.blog](/)'
-     notes: '[笔记](/notes/)'
-     wiki: '[btn.wiki](/wiki/)'
+     post: '[blogs](/)'
+     notes: '[notes](/notes/)'
+    #  wiki: '[wiki](/wiki/)'
     #  friends: '[友链](/friends/)'
-     about: '[关于](/about/)'
+     about: '[我是啥](/about/)'
   # Sidebar widgets
   widgets:
     #### 自动生成的页面 ####

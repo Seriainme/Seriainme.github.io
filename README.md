@@ -23,9 +23,6 @@ blockquote引用字体样式设置 (待解决，用新的styl覆盖)
 
  
 # todo
-网站的favicon
-
-左上角logo部分的优化 小标题
 
 笔记功能 i can not figure it out 
 
@@ -35,10 +32,13 @@ blockquote引用字体样式设置 (待解决，用新的styl覆盖)
 
 zh en 字体的大小如何分开设置
 
+
+
+# 大后期的需求
+
 购买域名，注册七牛云图床
 
 第二章的友链部分还没看
-
 
 # what i learned
 更改hexo的config.yml 文件来更改设置，比如站点的信息
