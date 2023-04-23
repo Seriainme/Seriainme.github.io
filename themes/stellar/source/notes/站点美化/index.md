@@ -9,5 +9,3 @@ comments: false
 
 ---
 
-## notes 
-

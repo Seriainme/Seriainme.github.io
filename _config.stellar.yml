@@ -249,7 +249,7 @@ tag_plugins:
     mine: https://cdn.discordapp.com/emojis/${name}.gif?size=128
   # {% image %}
   image:
-    fancybox: # true, false
+    fancybox: true 
     replace_original:  #把markdown格式的图片解析成图片标签
       enable: false
   # {% timeline %}
