@@ -10,7 +10,7 @@ search:
 search_blog:
   layout: search
   filter: /blog/ # auto or 'path'
-  placeholder: 文章搜索
+  placeholder: 搜一哈
 
 search_docs:
   layout: search
