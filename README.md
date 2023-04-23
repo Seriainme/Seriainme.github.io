@@ -37,10 +37,12 @@ zh en 字体的大小如何分开设置
 
 购买域名，注册七牛云图床
 
+第二章的友链部分还没看
+
 
 # what i learned
 更改hexo的config.yml 文件来更改设置，比如站点的信息
 
 文章添加<!-- more -->之前的内容为摘要，有加密的内容不能设置摘要，要把password置空
 
-基本使用chapter 2 
+使用Spotify的插件来嵌入音乐

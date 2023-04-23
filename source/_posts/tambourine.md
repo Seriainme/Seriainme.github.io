@@ -6,16 +6,17 @@ message: Hey, passwore.
 password: ''
 ---
 
-在心率管家默默无闻地上线了一年多之后，现在终于打算来好好聊聊关于手机摄像头测量心率的那些事。本文参考了很多前辈的文章，将在文末列出。
-
+摘要内容
 <!-- more -->
 
-后面是正文部分，在主页看不到。
-
+ 
 When I randomly tapped on [ablo](https://cn.bing.com/search?form=MOZLBR&pc=MOZI&q=ablo) the other day ,
 a msg popped up informing me of the coming shutdown of the community in July.
 Had it not been for all the ridiculous things since covid, the bad news would be less trivial for me.
 After all with increasing number on business closures the result was not hard to see.
+
+
+{% spotify https://open.spotify.com/album/6fIotKh6Xp44xP0hvYYboe?si=GFoZQZtbR8WVdsQHuaPu5Q&dd=1&nd=1 %}
 
 Dating back several years when I was rather active on SNS ,I had the first encounter with ablo when browsing Google Play Store
 n it hit on top ranking against other social networking apps tagging itself "making friends with ppl worldwide".
