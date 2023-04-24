@@ -19,8 +19,7 @@ sidebar:
 
   logo:
     avatar: "/images/mkmk.webp"
-    title: "Morel's blog" # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
-    favicon: "/images/favicon.ico"
+    title: "Morel's blog of" # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
      post: '[blogs](/)'
      notes: '[notes](/notes/)'
