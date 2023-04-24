@@ -1,6 +1,6 @@
 ---
 title: template
-tags: []
+tags: ['']
 categories: []
 message: show me the code
 password: ''

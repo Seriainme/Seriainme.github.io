@@ -24,14 +24,15 @@ blockquote引用字体样式设置 (待解决，用新的styl覆盖)
  
 # todo
 
+改变页面的css布局，改字体和颜色
+
 笔记功能 i can not figure it out 
 
 侧边栏的美化
 
 自定义小组件
 
-zh en 字体的大小如何分开设置
-
+ 
 
 
 # 大后期的需求
