@@ -4,11 +4,13 @@
 
 # Site
 title: 大黄的狗窝
-subtitle: a fine frenzy|or flowing tenderness
+subtitle: a fine frenzy|flowing tenderness
 description: ''
 keywords:
 author: John Doe
-language: en
+language:
+  - zh-CN
+  - en
 timezone: ''
 favicon: "/images/favicon.ico"
 

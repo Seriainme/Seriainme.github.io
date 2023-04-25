@@ -21,8 +21,8 @@ sidebar:
     avatar: "/images/mkmk.webp"
     title: "Morel's blog of" # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
-     post: '[blogs](/)'
-     notes: '[notes](/notes/)'
+     post: '[文章](/)'
+     notes: '[小抄](/notes/)'
     #  wiki: '[wiki](/wiki/)'
     #  friends: '[友链](/friends/)'
      about: '[我是啥](/about/)'
@@ -200,22 +200,22 @@ footer:
      goodreads:
        icon: '<img src="https://s.gr-assets.com/assets/icons/goodreads_icon_1000x1000-aed808dec2093e20867b35cd56d9862d.png"/>'
        url: https://www.goodreads.com/user/show/93377098-covus
-  sitemap:
-     '博客':
-       - '[近期](/)'
-       - '[分类](/)'
-       - '[标签](/)'
-       - '[归档](/)'
-     '项目':
-       - '[开源库](/)'
-     '社交':
-       - '[友链](/)'
-       - '[留言板](/)'
-     '更多':
-       - '[关于本站](/)'
-       - '[GitHub](/)'
+#  sitemap:
+#     '博客':
+#       - '[近期](/)'
+#       - '[分类](/)'
+#       - '[标签](/)'
+#       - '[归档](/)'
+#     '项目':
+#       - '[开源库](/)'
+#     '社交':
+#       - '[友链](/)'
+#       - '[留言板](/)'
+#     '更多':
+#       - '[关于本站](/)'
+#       - '[GitHub](/)'
   content: | # 支持 Markdown 格式
-    耗尽一吨脑汁，使用[Hexo框架](https://github.com/hexojs/hexo) 和 [Stellar主题](https://github.com/xaoxuu/hexo-theme-stellar) 创建。
+    由[Hexo框架](https://github.com/hexojs/hexo) 和 [Stellar主题](https://github.com/xaoxuu/hexo-theme-stellar) 创建。
     所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
 
 

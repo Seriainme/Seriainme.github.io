@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="1">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.stellar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.stellar.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/hello-world.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/hello-world.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/stellar/languages/zh-CN.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/languages/zh-CN.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +99,7 @@
       <workItem from="1681959434952" duration="2417000" />
       <workItem from="1681971468056" duration="6070000" />
       <workItem from="1682298958790" duration="2770000" />
-      <workItem from="1682306904246" duration="18825000" />
+      <workItem from="1682306904246" duration="26296000" />
     </task>
     <task id="LOCAL-00001" summary="basic">
       <created>1680833492521</created>
@@ -307,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682330640968</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="1">
+      <created>1682386128819</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1682386128819</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

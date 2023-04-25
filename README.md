@@ -2,6 +2,9 @@
 this project records my practice on setting up my blog on a new hexo theme of stellar .
 
 
+# 暂时放着了，下一步准备把封面都换成随机的url，用自己的key
+
+################
 
 问题集中在：
 
