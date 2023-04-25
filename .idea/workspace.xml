@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="subtitles change">
+    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="1">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/stellar/layout/_partial/sidebar/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/layout/_partial/sidebar/header.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/kuromoji/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="D:\tools\pycharm_new\PyCharm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,7 +95,7 @@
       <workItem from="1681959434952" duration="2417000" />
       <workItem from="1681971468056" duration="6070000" />
       <workItem from="1682298958790" duration="2770000" />
-      <workItem from="1682306904246" duration="16672000" />
+      <workItem from="1682306904246" duration="18825000" />
     </task>
     <task id="LOCAL-00001" summary="basic">
       <created>1680833492521</created>
@@ -293,7 +293,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682327630470</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="color change of subtitles">
+      <created>1682329627163</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1682329627163</updated>
+    </task>
+    <task id="LOCAL-00030" summary="1">
+      <created>1682330640968</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1682330640968</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,10 +337,11 @@
     <MESSAGE value="使用stellar的yml文件" />
     <MESSAGE value="头像和鼠标指针引用本地文件" />
     <MESSAGE value="update readme" />
-    <MESSAGE value="1" />
     <MESSAGE value="无用的尝试" />
     <MESSAGE value="subtitles change" />
-    <option name="LAST_COMMIT_MESSAGE" value="subtitles change" />
+    <MESSAGE value="color change of subtitles" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />
