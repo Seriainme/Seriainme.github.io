@@ -35,6 +35,9 @@ blockquote引用字体样式设置，所有的页面设置都在css里面，比�
 
 在header.ejs 中改变对页面css的设置
 
+在stellar的widgets.yml 对组件就行设置，需要在md文件的开头声明使用哪些文件。
+
+
 
 喜欢的颜色
 

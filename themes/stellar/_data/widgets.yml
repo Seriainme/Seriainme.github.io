@@ -30,6 +30,22 @@ ghissues:
 
 # 将其覆盖设置为空，可删除一个默认组件，例如 welcome:
 # Recent update
+
+welcome:
+  layout: markdown
+  title: 欢迎欢迎
+  content: |
+    欢迎使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar/) 主题，下面是您的入门指南，祝您使用愉快！
+    <br>
+    **第一步**
+    创建 `blog/_config.stellar.yml` 文件，在此文件中填写需要自定义的主题配置。
+    <br>
+    **第二步**
+    创建 `blog/source/_data/widgets.yml` 文件，此文件中填写需要自定义的侧边栏组件，例如 `welcome` 组件。
+    <br>
+    如果有任何疑问，请先查阅 [文档](https://xaoxuu.com/wiki/stellar/)，如果文档中没有提供，请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues/) 向开发者询问。
+
+
 recent:
   layout: recent
   rss: # /atom.xml # npm i hexo-generator-feed
@@ -44,7 +60,7 @@ toc:
 # github user info
 ghuser:
   layout: ghuser
-  username: github # your github login username
+  username: Seriainme # your github login username
   avatar: true # show avatar or not
   menu: true # show menu or not
 
