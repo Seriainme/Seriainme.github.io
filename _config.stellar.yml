@@ -21,11 +21,11 @@ sidebar:
     avatar: "/images/mkmk.webp"
     title: "Morel's blog of" # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
-     post: '[文章](/)'
-     notes: '[小抄](/notes/)'
+     post: '[posts](/)'
+     notes: '[notes](/notes/)'
     #  wiki: '[wiki](/wiki/)'
     #  friends: '[友链](/friends/)'
-     about: '[我是啥](/about/)'
+     about: '[me](/about/)'
     #  more: '[更多](/more/)'
   # Sidebar widgets
   widgets:

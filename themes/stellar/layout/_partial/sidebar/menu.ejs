@@ -15,7 +15,7 @@ function layoutDiv() {
     if (id == page.menu_id) {
       el += ' active';
     }
-    el += '" href="' + url_for(md_link(item)) + '">';
+    el += '" href="' + url_for(md_link(item)) + '"  style="color: #8A2BE2; font-size: 26px;">';
     el += __(md_text(item));
     el += '</a>';
   }
