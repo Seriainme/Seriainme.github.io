@@ -10,7 +10,8 @@ this project records my practice on setting up my blog on a new hexo theme of st
 
 插入自定义的css 和 js 样式
 
-blockquote引用字体样式设置 (待解决，用新的styl覆盖)
+
+blockquote引用字体样式设置，所有的页面设置都在css里面，比如blockquote.styl 
 
 
 ```

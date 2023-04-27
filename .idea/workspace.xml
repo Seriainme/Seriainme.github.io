@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="1">
+    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="暂停工程">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.stellar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.stellar.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/hello-world.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/hello-world.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/stellar/languages/zh-CN.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/languages/zh-CN.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/stellar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/stellar/source/css/_common/blockquote.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/source/css/_common/blockquote.styl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,15 +54,19 @@
       <recent name="D:\stellar-setup\blog\themes\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.djtx.js">
+  <component name="RunManager" selected="Node.js.post_cover.ejs">
     <configuration name="bubbleCursor.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/blog/themes/stellar/source/js/bubbleCursor.js" working-dir="$PROJECT_DIR$/blog/themes/stellar/source/js">
       <method v="2" />
     </configuration>
     <configuration name="djtx.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/blog/themes/stellar/layout/djtx.js" working-dir="$PROJECT_DIR$/blog/themes/stellar/layout">
       <method v="2" />
     </configuration>
+    <configuration name="post_cover.ejs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/themes/stellar/layout/_partial/cover/post_cover.ejs" working-dir="$PROJECT_DIR$/themes/stellar/layout/_partial/cover">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.post_cover.ejs" />
         <item itemvalue="Node.js.djtx.js" />
         <item itemvalue="Node.js.bubbleCursor.js" />
       </list>
@@ -99,7 +101,10 @@
       <workItem from="1681959434952" duration="2417000" />
       <workItem from="1681971468056" duration="6070000" />
       <workItem from="1682298958790" duration="2770000" />
-      <workItem from="1682306904246" duration="26296000" />
+      <workItem from="1682306904246" duration="26312000" />
+      <workItem from="1682401556062" duration="4000" />
+      <workItem from="1682401692552" duration="2741000" />
+      <workItem from="1682562594796" duration="1373000" />
     </task>
     <task id="LOCAL-00001" summary="basic">
       <created>1680833492521</created>
@@ -318,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682386128819</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="暂停工程">
+      <created>1682394146650</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1682394146650</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +364,8 @@
     <MESSAGE value="subtitles change" />
     <MESSAGE value="color change of subtitles" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="暂停工程" />
+    <option name="LAST_COMMIT_MESSAGE" value="暂停工程" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />
