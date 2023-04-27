@@ -216,7 +216,7 @@ footer:
 #       - '[GitHub](/)'
   content: | # 支持 Markdown 格式
     由[Hexo框架](https://github.com/hexojs/hexo) 和 [Stellar主题](https://github.com/xaoxuu/hexo-theme-stellar) 创建，GitHub托管代码以及作为图床。
-    所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
+    所有文章均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
 
 
 ######## Tag Plugins ########
