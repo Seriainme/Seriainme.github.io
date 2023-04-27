@@ -48,7 +48,7 @@ hexo.extend.injector.register("body_end", function () {
         await copyCode(currentCodeElement)
 
 
-        codeCopyBtn.innerText = 'code copied!'
+        codeCopyBtn.innerText = 'Copied!'
         codeCopyBtn.classList.add('success')
 
         setTimeout(() => {
