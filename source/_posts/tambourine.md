@@ -51,12 +51,12 @@ She would often get home crying in schooldays.
 
 {% mark "I dunno y.Perhaps it is not sadness or pressure that I feel. I could not tell or help it:( .Sry for seeing me like this.It is so embarrassing." color:green %}
 
-> <font color="pink">"I dunno y.Perhaps it is not sadness or pressure that I feel. I could not tell or help it:( .Sry for seeing me like this.It is so embarrassing."<br></font>
+> <font color="pink" style="font-size: 26px;">"I dunno y.Perhaps it is not sadness or pressure that I feel. I could not tell or help it:( .Sry for seeing me like this.It is so embarrassing."<br></font>
 
 I remembered the tears dripping down her apple-like cheeks like unexpected raindrop.
 She did not seem sad tho.
 
-> "Don't worry.I feel u there.I wish I can make u feel better.
+> <font color="springgreen" style="font-size: 26px;">"Don't worry.I feel u there.I wish I can make u feel better.</font>
 
 
 Then I offered her some advice that I had applied to.

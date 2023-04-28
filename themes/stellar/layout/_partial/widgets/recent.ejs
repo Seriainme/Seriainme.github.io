@@ -30,7 +30,7 @@ function layoutDiv() {
   arr.forEach(post => {
     if (!post) { return }
     el += '<a class="item title" href="' + url_for(post.link || post.path) + '">';
-    el += '<span class="title">'
+    el += '<span class="title" style="font-size:25px; color:darkturquoise;">'
     if (post.layout == 'wiki') {
       let proj = theme.wiki.projects[post.wiki];
       let name = proj?.name || post?.wiki;
@@ -42,6 +42,7 @@ function layoutDiv() {
     el += '</a>';
     el += '';
   });
+  el += '<span class="item image"> <img src="/blog_images/Lotus1920.gif"></span>';
   el += '</div>';
   el += '</widget>';
   return el;

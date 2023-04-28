@@ -42,7 +42,7 @@ page:
     action: Back to Home
 
 search:
-  search: sneak a peek
+  search: I am wondering...
   search_in: Search in %s
   no_results: No Results!
 

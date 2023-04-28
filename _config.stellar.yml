@@ -15,8 +15,6 @@ open_graph:
 
 ######## Sidebar ########
 sidebar:
-  subtitle:  标题1 | 标题2
-
   logo:
     avatar: "/images/mkmk.webp"
     title: "Morel's blog of" # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
@@ -48,7 +46,7 @@ sidebar:
 
 ######## Index ########
 post-index: # 近期发布 分类 标签 归档 and ...
-  '朋友文章': /friends/rss/
+#  '朋友文章': /friends/rss/
 
 
 ######## Main ########

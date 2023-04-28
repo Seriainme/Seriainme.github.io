@@ -10,7 +10,7 @@ search:
 search_blog:
   layout: search
   filter: /blog/ # auto or 'path'
-  placeholder: 搜一哈
+  placeholder: ''
 
 search_docs:
   layout: search
@@ -38,7 +38,7 @@ welcome:
     欢迎使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar/) 主题，下面是您的入门指南，祝您使用愉快！
     <br>
     **第一步**
-    创建 `blog/_config.stellar.yml` 文件，在此文件中填写需要自定义的主题配置。
+    创建 `blog/_config.stellar.yml` 文件，{% emoji mine 422189446612385792 %}。
     <br>
     **第二步**
     创建 `blog/source/_data/widgets.yml` 文件，此文件中填写需要自定义的侧边栏组件，例如 `welcome` 组件。

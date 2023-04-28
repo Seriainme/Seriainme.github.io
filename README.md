@@ -20,6 +20,7 @@ blockquote 设置固定样式
 关于我的md
 
 # what i learned
+cover 和banner 都适用本地的图片，暂时用喜欢的画。不要用poster 海报模式，显得太大了，试了调过尺寸还是不太美观。
 
 blockquote引用字体样式设置，所有的页面设置都在css里面，比如blockquote.styl
 
@@ -37,7 +38,7 @@ blockquote引用字体样式设置，所有的页面设置都在css里面，比�
 
 在stellar的widgets.yml 对组件就行设置，需要在md文件的开头声明使用哪些文件。
 
-
+source/css/_custom.styl 改变发文页面的布局
 
 喜欢的颜色
 
