@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/source/blog_images/Lotus1920.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.stellar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.stellar.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/hello-world.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/hello-world.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/tambourine.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/tambourine.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/template.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_drafts/template.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/stellar/_data/widgets.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/_data/widgets.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/stellar/languages/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/languages/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/stellar/languages/zh-CN.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/languages/zh-CN.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/stellar/layout/_partial/widgets/recent.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/layout/_partial/widgets/recent.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/stellar/source/css/_custom.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/source/css/_custom.styl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +103,7 @@
       <workItem from="1682401556062" duration="4000" />
       <workItem from="1682401692552" duration="2741000" />
       <workItem from="1682562594796" duration="15277000" />
-      <workItem from="1682647091655" duration="14410000" />
+      <workItem from="1682647091655" duration="18094000" />
     </task>
     <task id="LOCAL-00001" summary="basic">
       <created>1680833492521</created>
@@ -389,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682650351444</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="update">
+      <created>1682669262730</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1682669262730</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
