@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="update aims">
+    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/source/blog_images/113.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.stellar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.stellar.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/tambourine.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/tambourine.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/stellar/_data/widgets.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/_data/widgets.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,8 @@
       <workItem from="1682306904246" duration="26312000" />
       <workItem from="1682401556062" duration="4000" />
       <workItem from="1682401692552" duration="2741000" />
-      <workItem from="1682562594796" duration="15261000" />
+      <workItem from="1682562594796" duration="15277000" />
+      <workItem from="1682647091655" duration="2624000" />
     </task>
     <task id="LOCAL-00001" summary="basic">
       <created>1680833492521</created>
@@ -366,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682585609461</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="update">
+      <created>1682588778138</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682588778138</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +392,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic" />
-    <MESSAGE value="update" />
     <MESSAGE value="delete shit code n files" />
     <MESSAGE value="my blog files" />
     <MESSAGE value="改变了页面宽度的布局，在root width-main 的选项" />
@@ -406,7 +411,8 @@
     <MESSAGE value="左下角的图标换成本地" />
     <MESSAGE value="change color of selected text" />
     <MESSAGE value="update aims" />
-    <option name="LAST_COMMIT_MESSAGE" value="update aims" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />

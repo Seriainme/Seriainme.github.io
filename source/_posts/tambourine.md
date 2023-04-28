@@ -4,6 +4,9 @@ date: 2023-04-13 12:00:00
 sidebar: ['welcome']
 tags: ['dwelling in the past']
 message: Hey, passwore.
+banner: /blog_images/cover.webp
+cover: /blog_images/113.webp
+
 password: ''
 references:
   - title: '心跳之旅—💗—iOS用手机摄像头检测心率(PPG)'
@@ -18,7 +21,13 @@ poster: # 海报（可选，全图封面卡片）
   topic: 标题上方的小字 # 可选
   headline: 大标题 # 必选
   caption: 标题下方的小字 # 可选
-  color: green   -->
+  color: green   
+
+cover: /blog_images/113.webp
+
+
+
+-->
 
 摘要内容
 <!-- more -->

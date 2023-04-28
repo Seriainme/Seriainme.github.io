@@ -5,11 +5,11 @@ this project records my practice on setting up my blog on a new hexo theme of st
 
 自定义小组件的使用，加入介绍和改变字体大小
 
-下一步准备把封面都换成随机的url，用自己的key
-
 笔记功能 i can not figure it out 
 
 blockquote 设置固定样式
+
+代码复制的样式
 
 # last plan 
 
