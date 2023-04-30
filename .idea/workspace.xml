@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="update">
+    <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="subtitles change">
+      <change afterPath="$PROJECT_DIR$/source/images/422189446612385792.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/425028661381562379.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/stellar-setup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/stellar-setup.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/resolve" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/resolve" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/stellar/layout/_partial/widgets/recent.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/layout/_partial/widgets/recent.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,15 +40,15 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="null" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/blog_images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="D:\tools\pycharm_new\PyCharm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\py_projects\stellar-setup\source\images" />
       <recent name="D:\stellar-setup\source\blog_images" />
-      <recent name="D:\stellar-setup\source\_drafts" />
       <recent name="D:\stellar-setup\node_modules\kuromoji\src" />
       <recent name="D:\stellar-setup\source\cursor" />
       <recent name="D:\stellar-setup\source\images" />
@@ -102,8 +107,9 @@
       <workItem from="1682306904246" duration="26312000" />
       <workItem from="1682401556062" duration="4000" />
       <workItem from="1682401692552" duration="2741000" />
-      <workItem from="1682562594796" duration="15277000" />
-      <workItem from="1682647091655" duration="19927000" />
+      <workItem from="1682562594796" duration="15261000" />
+      <workItem from="1682817482502" duration="285000" />
+      <workItem from="1682829406011" duration="2570000" />
     </task>
     <task id="LOCAL-00001" summary="basic">
       <created>1680833492521</created>
@@ -364,35 +370,7 @@
       <option name="project" value="LOCAL" />
       <updated>1682585609461</updated>
     </task>
-    <task id="LOCAL-00038" summary="update">
-      <created>1682588778138</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1682588778138</updated>
-    </task>
-    <task id="LOCAL-00039" summary="update">
-      <created>1682650351444</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1682650351444</updated>
-    </task>
-    <task id="LOCAL-00040" summary="update">
-      <created>1682669262730</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1682669262730</updated>
-    </task>
-    <task id="LOCAL-00041" summary="update">
-      <created>1682673414975</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1682673414976</updated>
-    </task>
-    <option name="localTasksCounter" value="42" />
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,6 +390,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic" />
+    <MESSAGE value="update" />
     <MESSAGE value="delete shit code n files" />
     <MESSAGE value="my blog files" />
     <MESSAGE value="改变了页面宽度的布局，在root width-main 的选项" />
@@ -431,8 +410,7 @@
     <MESSAGE value="左下角的图标换成本地" />
     <MESSAGE value="change color of selected text" />
     <MESSAGE value="update aims" />
-    <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update aims" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />
