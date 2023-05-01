@@ -11,8 +11,8 @@ if (page.menu_id == undefined) {
   <div class='post-list'>
     <article class='<%- scrollreveal() %>' id='tags'>
       <% site.tags.sort('length', -1).each(function(tag){ %>
-        <a class='tag' href="<%= url_for(tag.path) %>">
-          <span class='name'><%= tag.name %></span>
+        <a class='tag' href="<%= url_for(tag.path) %>" >
+          <span class='name' style="font-size: 24px;color:royalblue;" ><%= tag.name %></span>
         </a>
       <% }) %>
     </article>

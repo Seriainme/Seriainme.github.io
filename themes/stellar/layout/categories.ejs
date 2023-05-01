@@ -8,7 +8,7 @@ if (page.menu_id == undefined) {
   <% page.title = __('btn.categories'); %>
   <% page.layout = 'categories'; %>
   <%- partial('_partial/main/navbar/list_post') %>
-  <div class='post-list'>
+  <div class='post-list' >
     <article class='<%- scrollreveal() %>' id='cats'>
       <% site.categories.sort('path').each(function(category){ %>
         <div>
