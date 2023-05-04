@@ -3,14 +3,12 @@ this project records my practice on setting up my blog on a new hexo theme of st
 
 # todo
 
-笔记功能
- 
-blockquote 设置固定样式 
+笔记功能，记录平时的工作笔记。
 
 代码复制的样式，而且要有缩放的功能按钮。
 
-- [ ] 头像的图片大小 ，背景图片也需要调整
- 
+https://skyreeves.cn/post/9b8cc433.html 侧边栏美化
+  
 
 # last plan 
 自定义小组件的使用，其他没读完的文档部分
@@ -49,6 +47,24 @@ blockquote引用字体样式设置，所有的页面设置都在css里面，比�
 在stellar的widgets.yml 对组件就行设置，需要在md文件的开头声明使用哪些文件。
 
 source/css/_custom.styl 改变发文页面的布局
+
+对页面的blockquote做定制，单独对p进行处理，并使用import来修饰，强调第一重要不被其他文件改写。
+
+blockquote
+  display block
+  margin-left 0
+  margin-right 0
+  padding 0.25rem 0.75rem
+  background-color rebeccapurple
+  $bd-left = 4px
+  border-left $bd-left solid cyan
+  border-radius $bd-left $border-bar $border-bar $bd-left
+  p
+    font-size: 55px !important;
+    color: springgreen
+
+
+
 
 喜欢的颜色
 
