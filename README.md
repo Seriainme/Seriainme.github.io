@@ -5,15 +5,15 @@ this project records my practice on setting up my blog on a new hexo theme of st
 
 笔记功能，记录平时的工作笔记。
 
-代码复制的样式，而且要有缩放的功能按钮。
+代码复制的样式，和代码的背景样式。
 
-侧边栏的英文字体太小了，helloworld md 
+侧边栏的英文字体太小了，helloworld md 。侧边栏的定制
 
 https://skyreeves.cn/post/9b8cc433.html 侧边栏美化
   
+自定义小组件的使用，其他没读完的文档部分
 
 # last plan 
-自定义小组件的使用，其他没读完的文档部分
 
 看看其他hexo和stellar 博客， hexo里面好用的插件
 
@@ -65,6 +65,13 @@ blockquote
     font-size: 55px !important;
     color: springgreen
 
+
+用blockquote的样式表达对话
+> Elise: I dunno y.Perhaps it is not sadness or pressure that I feel.
+> I could not tell or help it:( .Sry for seeing me like this.
+> It is so embarrassing. 
+> 
+> me: Don't worry.I feel u there.I wish I can make u feel better. 
 
 
 
