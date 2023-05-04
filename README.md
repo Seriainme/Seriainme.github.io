@@ -3,27 +3,24 @@ this project records my practice on setting up my blog on a new hexo theme of st
 
 # todo
 
-自定义小组件的使用，其他没读完的文档部分
-
-笔记功能 i can not figure it out 
-
+笔记功能
+ 
 blockquote 设置固定样式 
 
 代码复制的样式，而且要有缩放的功能按钮。
 
+- [ ] 头像的图片大小 ，背景图片也需要调整
+ 
+
+# last plan 
+自定义小组件的使用，其他没读完的文档部分
+
 看看其他hexo和stellar 博客， hexo里面好用的插件
 
-https://cat.dorcandy.cn/a262193e.html 博客优化
-
-链接的插件，简化贴文链接形式
+表情包收集
 
 https://xaoxuu.com/wiki/stellar/articles/ 探索新的特性
 
-- [ ] 发文的侧边栏英文字体大小,看别人的博客怎么处理
-- [ ] 头像的图片大小 ，背景图片也需要调整
-- [ ] 表情包收集
-
-# last plan 
 先把大的框架搭好，细节以后再弄。把博客的事情早点结束，之后忙工作。
 
 购买域名，注册七牛云图床

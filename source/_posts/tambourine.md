@@ -1,18 +1,20 @@
 ---
 title: The silent tambourine
-date: 2023-04-13 12:00:00
-sidebar: ['welcome']
-tags: ['dwelling in the past']
-message: Hey, passwore.
+sidebar:
+  - welcome
+tags:
+  - dwelling in the past
+message: 'Hey, passwore.'
 banner: /blog_images/cover.webp
 cover: /blog_images/113.webp
-
 password: ''
 references:
-  - title: '心跳之旅—💗—iOS用手机摄像头检测心率(PPG)'
-    url: https://punmy.cn/2016/07/28/15231176397746.html
-  - title: 'PPG光电容积脉搏波描记法技术概况'
-    url: https://www.jianshu.com/p/695c131abfa5
+  - title: "心跳之旅—\U0001F497—iOS用手机摄像头检测心率(PPG)"
+    url: 'https://punmy.cn/2016/07/28/15231176397746.html'
+  - title: PPG光电容积脉搏波描记法技术概况
+    url: 'https://www.jianshu.com/p/695c131abfa5'
+abbrlink: b4782ebe
+date: 2023-04-13 12:00:00
 ---
 
 <!-- 封面的海报标题相关设置

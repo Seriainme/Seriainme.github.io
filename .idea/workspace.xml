@@ -4,10 +4,12 @@
     <list default="true" id="c2528109-7f67-476d-b010-a6a614a15ebf" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/stellar/layout/_partial/widgets/recent.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/layout/_partial/widgets/recent.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/stellar/layout/archive.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/layout/archive.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/stellar/layout/categories.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/layout/categories.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/stellar/layout/tags.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/stellar/layout/tags.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/hello-world.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/hello-world.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/tambourine.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/tambourine.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,13 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
     </option>
   </component>
   <component name="Git.Settings">
@@ -39,15 +48,15 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="null" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/blog_images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="D:\tools\pycharm_new\PyCharm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\py_projects\stellar-setup\source\images" />
       <recent name="D:\stellar-setup\source\blog_images" />
+      <recent name="D:\stellar-setup\source\_drafts" />
       <recent name="D:\stellar-setup\node_modules\kuromoji\src" />
       <recent name="D:\stellar-setup\source\cursor" />
       <recent name="D:\stellar-setup\source\images" />
@@ -106,10 +115,8 @@
       <workItem from="1682306904246" duration="26312000" />
       <workItem from="1682401556062" duration="4000" />
       <workItem from="1682401692552" duration="2741000" />
-      <workItem from="1682562594796" duration="15261000" />
-      <workItem from="1682817482502" duration="285000" />
-      <workItem from="1682829406011" duration="2664000" />
-      <workItem from="1682897877904" duration="6791000" />
+      <workItem from="1682562594796" duration="15277000" />
+      <workItem from="1682647091655" duration="19927000" />
     </task>
     <task id="LOCAL-00001" summary="basic">
       <created>1680833492521</created>
@@ -371,20 +378,34 @@
       <updated>1682585609461</updated>
     </task>
     <task id="LOCAL-00038" summary="update">
-      <created>1682864529585</created>
+      <created>1682588778138</created>
       <option name="number" value="00038" />
       <option name="presentableId" value="LOCAL-00038" />
       <option name="project" value="LOCAL" />
-      <updated>1682864529585</updated>
+      <updated>1682588778138</updated>
     </task>
     <task id="LOCAL-00039" summary="update">
-      <created>1682959418078</created>
+      <created>1682650351444</created>
       <option name="number" value="00039" />
       <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1682959418078</updated>
+      <updated>1682650351444</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="update">
+      <created>1682669262730</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1682669262730</updated>
+    </task>
+    <task id="LOCAL-00041" summary="update">
+      <created>1682673414975</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1682673414976</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
