@@ -43,6 +43,8 @@ After all with increasing number on business closures the result was not hard to
 
 {% spotify https://open.spotify.com/album/6fIotKh6Xp44xP0hvYYboe?si=GFoZQZtbR8WVdsQHuaPu5Q&dd=1&nd=1 %}
 
+{primary}(success Text)
+
 Dating back several years when I was rather active on SNS ,I had the first encounter with ablo when browsing Google Play Store
 n it hit on top ranking against other social networking apps tagging itself "making friends with ppl worldwide".
 So I downloaded it intending to receive free oral English practice, which later proved to be a bad idea since most users speak spanish n other languages:)
