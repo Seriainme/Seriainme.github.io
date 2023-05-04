@@ -30,7 +30,13 @@ show {% emoji mine 422189446612385792 %} here
 
 {% note color:green 一共支持12种颜色，可以满足几乎所有的需求了。 color 可设置 red、orange、yellow、green、cyan、blue、purple、light、dark、warning、error 几种取值。 %}
 
-  
+{% folding child:codeblock open:true color:yellow 默认打开的代码折叠框 %}
+```python
+import datetime
+lic = listb+lista
+print(len(lic))
+```
+{% endfolding %}
 
 ```bash
 curl -s https://sh.xaox.cc/install

@@ -18,6 +18,7 @@ sidebar:
   logo:
     avatar: "/images/mkmk.webp"
     title: "Morel's blog of" # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
+#    title:  '[<img no-lazy height="72px" src="/images/mkmk.webp" style="display:block;margin:auto;"/>](/)'
   menu:
      post: '[posts](/)'
      notes: '[notes](/notes/)'
@@ -406,8 +407,6 @@ style:
     background: https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp
   codeblock:
     scrollbar: 4px
-#    highlightjs_theme: https://gcore.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/atom-one-dark.min.css
-    highlightjs_theme: /custom/css/zycode.css
   loading:
     loading: 正在加载
     error: 加载失败，请稍后重试。

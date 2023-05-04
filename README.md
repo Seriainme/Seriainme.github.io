@@ -7,6 +7,8 @@ this project records my practice on setting up my blog on a new hexo theme of st
 
 代码复制的样式，而且要有缩放的功能按钮。
 
+侧边栏的英文字体太小了，helloworld md 
+
 https://skyreeves.cn/post/9b8cc433.html 侧边栏美化
   
 
