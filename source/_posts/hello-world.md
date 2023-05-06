@@ -16,6 +16,50 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 [^]: reference
 
 :
+
+
+
+```css
+:root{
+    --code-autor: '© 钟意博客🌙';
+    --code-tip: "优雅借鉴";
+} 
+```
+
+{% swiper width:min effect:cards %}
+
+
+
+![](https://images.unsplash.com/photo-1528283648649-33347faa5d9e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80 "1111111")
+
+![](https://images.unsplash.com/photo-1542272201-b1ca555f8505?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80 "2222222")
+
+ 
+
+{% endswiper %}
+
+
+```python
+print('hi1111')
+
+```
+
+{% folding child:codeblock open:false color:cyan 全部代码 %}
+```python
+print('hi')
+
+```
+{% endfolding %}
+
+```bash
+curl -s https://sh.xaox.cc/install
+```
+
+![image-20230506112748396](https://raw.githubusercontent.com/Seriainme/pic_bed/main/202305061127525.png "zzzzzz")
+
+ 
+
+
 置到Stellar中吧{% emoji blobcat ablobcatrainbow %}阿达
 
 测试2.0:
@@ -30,26 +74,16 @@ show {% emoji mine 422189446612385792 %} here
 
 {% note color:green 一共支持12种颜色，可以满足几乎所有的需求了。 color 可设置 red、orange、yellow、green、cyan、blue、purple、light、dark、warning、error 几种取值。 %}
 
-{% folding child:codeblock open:true color:yellow 默认打开的代码折叠框 %}
-```python
-import datetime
-lic = listb+lista
-print(len(lic))
-```
-{% endfolding %}
 
-```bash
-curl -s https://sh.xaox.cc/install
-```
+[comment]: <> "```python"
 
+[comment]: <> "import datetime"
 
+[comment]: <> "lic = listb+lista"
 
+[comment]: <> "print&#40;len&#40;lic&#41;&#41;"
 
-```python
-import datetime
-lic = listb+lista
-print(len(lic))
-```
+[comment]: <> "```"
 
 
 

@@ -3,15 +3,17 @@ this project records my practice on setting up my blog on a new hexo theme of st
 
 # todo
 
-笔记功能，记录平时的工作笔记。
-
 代码复制的样式，和代码的背景样式。
 
 侧边栏的英文字体太小了，helloworld md 。侧边栏的定制
 
 https://skyreeves.cn/post/9b8cc433.html 侧边栏美化
-  
+
+笔记功能，记录平时的工作笔记。
+
 自定义小组件的使用，其他没读完的文档部分
+
+add pwd for some posts 
 
 # last plan 
 
@@ -27,7 +29,7 @@ https://xaoxuu.com/wiki/stellar/articles/ 探索新的特性
 
 第二章的友链部分还没看，所有的友链部分
 
-关于我的md
+关于我的md.use swipe card to display my fav ppl n other things.
 
 # what i learned
 cover 和banner 都适用本地的图片，暂时用喜欢的画。不要用poster 海报模式，显得太大了，试了调过尺寸还是不太美观。

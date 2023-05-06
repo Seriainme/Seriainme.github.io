@@ -135,8 +135,8 @@ cursor: help;
 .token.inserted {
 color: green;
 }
-  
-  
+
+
     .highlight {
       position: relative;
     }
