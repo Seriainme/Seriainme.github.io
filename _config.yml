@@ -112,5 +112,7 @@ theme: stellar
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Seriainme/Seriainme.github.io.git
+  branch: main
 
