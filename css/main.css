@@ -252,7 +252,10 @@ blockquote {
   background-color: #639;
   border-left: 4px solid #0ff;
   border-radius: 4px 6px 6px 4px;
-  font-size: 30px;
+}
+blockquote p {
+  font-size: 25px !important;
+  color: #00ff7f;
 }
 :root {
   --blur-px: 12px;
@@ -579,6 +582,9 @@ table:not([class]) {
   border-radius: 12px;
   line-height: 1.5;
   box-sizing: border-box;
+}
+.md-text .highlight {
+  background: #ffffe0;
 }
 .md-text .highlight .code {
   vertical-align: top;
