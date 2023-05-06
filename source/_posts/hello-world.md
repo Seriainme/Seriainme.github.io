@@ -46,7 +46,7 @@ print('hi1111')
 
 {% folding child:codeblock open:false color:cyan 全部代码 %}
 ```python
-print('hi')
+print('hi111111111111111111111111')
 
 ```
 {% endfolding %}
