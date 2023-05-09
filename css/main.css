@@ -106,8 +106,8 @@ blockquote {
   font-style: normal;
 }
 @font-face {
-  font-family: 'fusion-pixel-proportional';
-  src: url("/font/fusion-pixel-proportional.ttf");
+  font-family: 'SmileySans-Oblique';
+  src: url("/font/SmileySans-Oblique.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -249,13 +249,13 @@ blockquote {
   margin-left: 0;
   margin-right: 0;
   padding: 0.25rem 0.75rem;
-  background-color: #639;
+  background-color: #fafad2;
   border-left: 4px solid #0ff;
   border-radius: 4px 6px 6px 4px;
 }
 blockquote p {
   font-size: 25px !important;
-  color: #00ff7f;
+  color: #000;
 }
 :root {
   --blur-px: 12px;
@@ -5046,7 +5046,7 @@ div.swiper-slide img {
   border-radius: 4px;
 }
 .swiper[width='max'] .swiper-slide {
-  width: 100%;
+  width: 50%;
 }
 .swiper[width='min'] .swiper-slide {
   width: 25%;
