@@ -249,13 +249,13 @@ blockquote {
   margin-left: 0;
   margin-right: 0;
   padding: 0.25rem 0.75rem;
-  background-color: #639;
-  border-left: 4px solid #0ff;
+  background-color: #f2f2f2;
+  border-left: 4px solid #808080;
   border-radius: 4px 6px 6px 4px;
 }
 blockquote p {
-  font-size: 25px !important;
-  color: #00ff7f;
+  font-size: 27px !important;
+  color: #000;
 }
 :root {
   --blur-px: 12px;
