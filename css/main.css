@@ -4931,6 +4931,9 @@ h1.article-title {
 .md-text p {
   font-size: 1em;
 }
+.md-text p span[lang="en"] {
+  font-size: 1.5em; /* 替换为你需要的字体大小 */
+}
 .md-text pre {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
