@@ -4929,10 +4929,13 @@ h1.article-title {
   margin-top: -0.5rem;
 }
 .md-text p {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 .md-text p span[lang="en"] {
-  font-size: 1.5em; /* 替换为你需要的字体大小 */
+  font-size: 1.5em;
+}
+.md-text span[lang="en"] {
+  font-size: 1.5em;
 }
 .md-text pre {
   -webkit-font-smoothing: auto;
