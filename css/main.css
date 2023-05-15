@@ -4166,7 +4166,15 @@ nav.menu a.nav-item:hover {
 .widget-wrapper.toc.single .toc-item:after {
   content: none;
 }
+.toc-level-2::marker {
+  content: '🍄';
+  color: #f00 !important;
+}
 .toc-level-3::marker {
+  content: '🍄';
+  color: #f00 !important;
+}
+.toc-level-4::marker {
   content: '🍄';
   color: #f00 !important;
 }
@@ -5068,7 +5076,7 @@ h1.article-title {
   margin-top: -0.5rem;
 }
 .md-text p {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 .md-text p span[lang="en"] {
   font-size: 1.5em;
