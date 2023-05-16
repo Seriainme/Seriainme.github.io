@@ -4109,7 +4109,7 @@ nav.menu a.nav-item:hover {
   padding: 0;
   margin: 0;
 }
-.widget-wrapper.toc.single .widget-body .toc .toc-item .toc-link {
+.widget-wrapper.toc.single .widget-body .toc .toc-item .toc-level-2 {
   font-weight: 500;
   font-size: 0.8125rem;
   color: #7fffd4;
@@ -4171,11 +4171,11 @@ nav.menu a.nav-item:hover {
   color: #f00 !important;
 }
 .toc-level-3::marker {
-  content: '🍄';
+  content: '🦄';
   color: #f00 !important;
 }
 .toc-level-4::marker {
-  content: '🍄';
+  content: '🦩';
   color: #f00 !important;
 }
 .widget-wrapper.toc.single a.toc-link {

@@ -126,7 +126,11 @@
   <div class="post-list post"><a class="post-card post  reveal" href="/posts/cf138c3f.html">
 <article class="md-text"><h2 class="post-title">学习app分析</h2><div class="excerpt"><p>Here's something encrypted, password is required to continue reading.</p></div><div class="meta cap"><span class="cap" id="post-meta">发布于&nbsp;<time datetime="2023-05-10T07:22:54.000Z">2023-05-10</time></span><span class="cap breadcrumb">coding</span></div></article>
 </a><a class="post-card post  reveal" href="/posts/e0c6b651.html">
-<article class="md-text"><div class="post-cover"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/blog_images/shwuyu2.jpg"/></div><h2 class="post-title">stellar 魔改记录</h2><div class="excerpt"><p>封面来自伤物语冷血篇</p></div><div class="meta cap"><span class="cap" id="post-meta">发布于&nbsp;<time datetime="2023-05-10T03:21:18.000Z">2023-05-10</time></span><span class="cap breadcrumb">coding</span></div></article>
+<article class="md-text"><div class="post-cover"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/blog_images/shwuyu2.jpg"/></div><h2 class="post-title">stellar 魔改记录</h2><div class="excerpt"><p>封面来自伤物语冷血篇
+欢迎来参观的小伙伴，我想对你们说：
+JOJO！这是我最后的波纹了！你收下吧！  
+
+欢迎借鉴（狠狠地抄）</p></div><div class="meta cap"><span class="cap" id="post-meta">发布于&nbsp;<time datetime="2023-05-10T03:21:18.000Z">2023-05-10</time></span><span class="cap breadcrumb">coding</span></div></article>
 </a></div>
   
 
@@ -483,7 +487,24 @@ color: green;
     codeElementArr.forEach(code => {
       const codeBeforeWidth = window.getComputedStyle(code, '::before').width.split('px')[0]
       const codeBeforePadding = window.getComputedStyle(code, '::before').padding.split(' ').pop().split('px')[0]
+    // add spring button for code 
+            const codeCopyOver = document.createElement('button');
+            codeCopyOver.addEventListener('click', () => {
+            if (codeCopyOver.innerHTML === openText) {
+                const scrollTop = document.documentElement.scrollTop;
+                const codeHeight = code.clientHeight;
 
+                if (scrollTop < codeHeight) {
+                    document.documentElement.scrollTop += codeHeight - scrollTop;
+                }
+
+                preCode.style.webkitLineClamp = '99999';
+                codeCopyOver.innerHTML = closeText;
+            } else {
+                preCode.style.webkitLineClamp = '6';
+                codeCopyOver.innerHTML = openText;
+            }
+        });
       // copy btn
       const codeCopyBtn = document.createElement('div')
       codeCopyBtn.classList.add('copy-btn')

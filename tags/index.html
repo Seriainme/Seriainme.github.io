@@ -494,7 +494,24 @@ color: green;
     codeElementArr.forEach(code => {
       const codeBeforeWidth = window.getComputedStyle(code, '::before').width.split('px')[0]
       const codeBeforePadding = window.getComputedStyle(code, '::before').padding.split(' ').pop().split('px')[0]
+    // add spring button for code 
+            const codeCopyOver = document.createElement('button');
+            codeCopyOver.addEventListener('click', () => {
+            if (codeCopyOver.innerHTML === openText) {
+                const scrollTop = document.documentElement.scrollTop;
+                const codeHeight = code.clientHeight;
 
+                if (scrollTop < codeHeight) {
+                    document.documentElement.scrollTop += codeHeight - scrollTop;
+                }
+
+                preCode.style.webkitLineClamp = '99999';
+                codeCopyOver.innerHTML = closeText;
+            } else {
+                preCode.style.webkitLineClamp = '6';
+                codeCopyOver.innerHTML = openText;
+            }
+        });
       // copy btn
       const codeCopyBtn = document.createElement('div')
       codeCopyBtn.classList.add('copy-btn')

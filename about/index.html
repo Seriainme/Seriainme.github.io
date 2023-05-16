@@ -53,8 +53,8 @@
 <meta property="og:site_name" content="大黄的狗窝">
 <meta property="og:description" content="new test实打实jllklk202332阿斯顿发 kindle  阿发lsjjj asdfasdkindle clipping  asdfasd dfasdf fasdf    me :dfasdfaf   asdfasf">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-05-15T22:46:39.160Z">
-<meta property="article:modified_time" content="2023-05-15T22:46:39.160Z">
+<meta property="article:published_time" content="2023-05-16T08:44:47.130Z">
+<meta property="article:modified_time" content="2023-05-16T08:44:47.130Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -522,7 +522,24 @@ color: green;
     codeElementArr.forEach(code => {
       const codeBeforeWidth = window.getComputedStyle(code, '::before').width.split('px')[0]
       const codeBeforePadding = window.getComputedStyle(code, '::before').padding.split(' ').pop().split('px')[0]
+    // add spring button for code 
+            const codeCopyOver = document.createElement('button');
+            codeCopyOver.addEventListener('click', () => {
+            if (codeCopyOver.innerHTML === openText) {
+                const scrollTop = document.documentElement.scrollTop;
+                const codeHeight = code.clientHeight;
 
+                if (scrollTop < codeHeight) {
+                    document.documentElement.scrollTop += codeHeight - scrollTop;
+                }
+
+                preCode.style.webkitLineClamp = '99999';
+                codeCopyOver.innerHTML = closeText;
+            } else {
+                preCode.style.webkitLineClamp = '6';
+                codeCopyOver.innerHTML = openText;
+            }
+        });
       // copy btn
       const codeCopyBtn = document.createElement('div')
       codeCopyBtn.classList.add('copy-btn')
