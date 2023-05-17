@@ -346,7 +346,11 @@
     new bubbleCursor();
 </script>
 <!-- hexo injector body_end start -->
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-OE3sGz9hXh5PrYx1nloDUfzcTYhZWDM80LaKd32FZuhCXWvU3LuUdIhpuC5otQFdC5sveZEpQIv2bF0Gz/J2xQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <style>
+ 
 code[class*="language-"],
 pre[class*="language-"] {
 color: #f92aad;
@@ -509,6 +513,7 @@ color: green;
   </style>
   <script>
     // ori code 
+    
     const codeElementArr = document.querySelectorAll('.code')
     codeElementArr.forEach(code => {
       const codeBeforeWidth = window.getComputedStyle(code, '::before').width.split('px')[0]
@@ -518,14 +523,12 @@ color: green;
       const codeCopyBtn = document.createElement('div')
       codeCopyBtn.classList.add('copy-btn')
       codeCopyBtn.style.right = Number(codeBeforeWidth) + Number(codeBeforePadding) * 2 + 'px'
-      codeCopyBtn.innerText = 'copy'
-      code.appendChild(codeCopyBtn)
+      codeCopyBtn.innerHTML = '<i class="fas fa-copy"></i>';
 
       codeCopyBtn.addEventListener('click', async () => {
         const currentCodeElement = code.children[0]?.innerText
         await copyCode(currentCodeElement)
-
-
+        
         codeCopyBtn.innerText = 'Copied!'
         codeCopyBtn.classList.add('success')
 
@@ -551,5 +554,8 @@ color: green;
       }
     }
   </script>
+  
+  </head>
+  
   <!-- hexo injector body_end end --></body>
 </html>

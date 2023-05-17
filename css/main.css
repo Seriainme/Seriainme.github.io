@@ -4173,12 +4173,12 @@ nav.menu a.nav-item:hover {
   content: '🍄';
 }
 .toc-level-3::marker {
-  content: '💐';
+  content: '';
   display: inline-block;
   padding-right: 50px;
 }
 .toc-level-4::marker {
-  content: '🌷';
+  content: '';
 }
 .widget-wrapper.toc.single a.toc-link {
   position: relative;
@@ -5087,9 +5087,9 @@ h1.article-title {
 .posts-expand .post-title-link::before {
   background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
 }
-.md-text.content a.headerlink:before {
+.md-text.content h2 a.headerlink:before {
   display: inline-block;
-  content: '';
+  content: '.';
   width: 50px;
   height: 50px;
   background-image: url("/images/frog.png");
@@ -5101,18 +5101,19 @@ h1.article-title {
   margin-top: 2rem;
   border-bottom: 1px solid var(--block-border);
   font-weight: 400;
-  color: #ffc0cb;
+  color: #00ff7f;
 }
 .md-text.content h3 {
   margin-top: 1.5rem;
   font-weight: 400;
-  color: #8a2be2;
+  color: #ffc0cb;
 }
 .md-text.content h4,
 .md-text.content h5,
 .md-text.content h6 {
   font-weight: 500;
-  color: #008b8b;
+  color: #bdb76b;
+  font-size: 18px;
 }
 .md-text.content h1+h2 {
   margin-top: -0.5rem;

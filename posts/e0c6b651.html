@@ -54,7 +54,7 @@
 <meta property="og:description" content="封面来自伤物语冷血篇 欢迎来参观的小伙伴，我想对你们说： JOJO！这是我最后的波纹了！收下吧！    欢迎借鉴（狠狠地抄）">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-05-10T03:21:18.000Z">
-<meta property="article:modified_time" content="2023-05-16T23:41:17.126Z">
+<meta property="article:modified_time" content="2023-05-17T06:45:46.336Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary_large_image">
@@ -156,6 +156,10 @@
 <div class="tag-plugin checkbox" ><input type="radio" checked="true"/><span><span class=heimu data-title=你知道的太多了>黑历史</span> 萌百科的字体透明效果</span></div>
 <div class="tag-plugin checkbox" ><input type="radio" checked="true"/><span>GitHub action</span></div>
 <div class="tag-plugin checkbox" ><input type="radio" checked="true"/><span>blockquote 独对p进行处理，并使用import来修饰，强调第一重要不被其他文件改写</span></div>
+<div class="tag-plugin checkbox" ><input type="radio" checked="true"/><span>还有整个的md styl 关于标题，标题文字的动态效果,所有的标题的前面的符号</span></div>
+
+
+
 <h2 id="未集成的功能"><a href="#未集成的功能" class="headerlink" title="未集成的功能"></a>未集成的功能</h2><div class="tag-plugin checkbox" ><input type="radio"/><span>以前的旧博客迁移</span></div>
 <div class="tag-plugin checkbox" ><input type="radio"/><span>笔记部分加入喜欢的游戏和专辑，艺术家作家诗人等等</span></div>
 <div class="tag-plugin checkbox" ><input type="radio"/><span>评论区waline</span></div>
@@ -173,9 +177,6 @@
 <div class="tag-plugin checkbox" ><input type="radio"/><span>自动化处理字体大小的功能，自动调用Python文件</span></div>
 
 <h2 id="进行中"><a href="#进行中" class="headerlink" title="进行中"></a>进行中</h2><div class="tag-plugin checkbox" ><input type="radio"/><span>代码的复制图标和折叠功能 fontawesome</span></div>
-<div class="tag-plugin checkbox" ><input type="radio"/><span>还有整个的md styl 关于标题，标题文字的动态效果,所有的标题的前面的符号</span></div>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.posts-expand .post-title-link::before &#123;</span><br><span class="line">    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 
 <h2 id="个人配置"><a href="#个人配置" class="headerlink" title="个人配置"></a>个人配置</h2><p>cover 和banner 都适用本地的图片，暂时用喜欢的画。不要用poster 海报模式，显得太大了，试了调过尺寸还是不太美观。</p>
 <p>blockquote引用字体样式设置，所有的页面设置都在css目录里面，比如blockquote.styl<br>用blockquote的样式表达对话</p>
@@ -438,7 +439,11 @@
     new bubbleCursor();
 </script>
 <!-- hexo injector body_end start -->
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-OE3sGz9hXh5PrYx1nloDUfzcTYhZWDM80LaKd32FZuhCXWvU3LuUdIhpuC5otQFdC5sveZEpQIv2bF0Gz/J2xQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <style>
+ 
 code[class*="language-"],
 pre[class*="language-"] {
 color: #f92aad;
@@ -601,6 +606,7 @@ color: green;
   </style>
   <script>
     // ori code 
+    
     const codeElementArr = document.querySelectorAll('.code')
     codeElementArr.forEach(code => {
       const codeBeforeWidth = window.getComputedStyle(code, '::before').width.split('px')[0]
@@ -610,14 +616,12 @@ color: green;
       const codeCopyBtn = document.createElement('div')
       codeCopyBtn.classList.add('copy-btn')
       codeCopyBtn.style.right = Number(codeBeforeWidth) + Number(codeBeforePadding) * 2 + 'px'
-      codeCopyBtn.innerText = 'copy'
-      code.appendChild(codeCopyBtn)
+      codeCopyBtn.innerHTML = '<i class="fas fa-copy"></i>';
 
       codeCopyBtn.addEventListener('click', async () => {
         const currentCodeElement = code.children[0]?.innerText
         await copyCode(currentCodeElement)
-
-
+        
         codeCopyBtn.innerText = 'Copied!'
         codeCopyBtn.classList.add('success')
 
@@ -643,5 +647,8 @@ color: green;
       }
     }
   </script>
+  
+  </head>
+  
   <!-- hexo injector body_end end --></body>
 </html>
