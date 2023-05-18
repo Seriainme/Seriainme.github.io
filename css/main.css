@@ -42,9 +42,9 @@ code {
   margin: 4px;
 }
 .copy-btn {
-  color: #ff7600;
+  color: #ff0;
   background: #fff;
-  border: 1px solid #ff7600;
+  border: 3px solid #00fa9a;
 }
 blockquote {
   margin: 6px 0;
@@ -57,9 +57,9 @@ blockquote {
   border-radius: 3px;
 }
 .copy-btn:hover {
-  border-color: #ff7600;
+  border-color: #f0f;
   color: #fff;
-  background: #ff7600;
+  background: #ff0;
 }
 .posts-expand {
   padding-top: 10px;

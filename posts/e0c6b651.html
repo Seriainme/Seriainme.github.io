@@ -46,15 +46,15 @@
   <title>stellar 魔改记录 - 大黄的狗窝</title>
 
   
-    <meta name="description" content="封面来自伤物语冷血篇 欢迎来参观的小伙伴，我想对你们说： JOJO！这是我最后的波纹了！收下吧！    欢迎借鉴（狠狠地抄）">
+    <meta name="description" content="封面来自伤物语冷血篇">
 <meta property="og:type" content="article">
 <meta property="og:title" content="stellar 魔改记录">
 <meta property="og:url" content="https://poppygo.cc/posts/e0c6b651.html">
 <meta property="og:site_name" content="大黄的狗窝">
-<meta property="og:description" content="封面来自伤物语冷血篇 欢迎来参观的小伙伴，我想对你们说： JOJO！这是我最后的波纹了！收下吧！    欢迎借鉴（狠狠地抄）">
+<meta property="og:description" content="封面来自伤物语冷血篇">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-05-10T03:21:18.000Z">
-<meta property="article:modified_time" content="2023-05-17T06:45:46.336Z">
+<meta property="article:modified_time" content="2023-05-18T03:42:25.986Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary_large_image">
@@ -122,17 +122,19 @@
 <article class='md-text content post reveal'>
 <h1 class="article-title"><span>stellar 魔改记录</span></h1>
 <p>封面来自伤物语冷血篇</p>
-<p>欢迎来参观的小伙伴，我想对你们说：</p>
-<div class="tag-plugin quot"><p class="content" type="text">JOJO！这是我最后的波纹了！收下吧！</p></div>  
-
-<p>欢迎借鉴<del>（狠狠地抄）</del></p>
 <span id="more"></span>
 
 
+<div class="tag-plugin quot"><p class="content" type="text">JOJO！这是我最后的波纹了！收下吧！</p></div>  
+
+<p>欢迎借鉴<del>（狠狠地抄）</del> 我的瞎改</p>
 <h2 id="持续更新记录，stellar版本1-18-5，从后往前说吧。"><a href="#持续更新记录，stellar版本1-18-5，从后往前说吧。" class="headerlink" title="持续更新记录，stellar版本1.18.5，从后往前说吧。"></a>持续更新记录，stellar版本1.18.5，从后往前说吧。</h2><p>首先，深知自己的三分钟热度，所以买了服务器以后也是吃灰，所以不如用免费的。</p>
 <p>图床也是，虽然有自己的域名可以在七牛云免费建立图床，但是这个域名我都不知道买几年呢。</p>
 <p>就先用免费的GitHub 仓库作为图床凑合下吧</p>
 <p>总之，花钱是不可能花钱的。主打一个白嫖</p>
+<div class="tag-plugin folders" ><details class="folder" index="0"><summary><span>题目1</span></summary><div class="body"><p>这是答案1</p></div></details><details class="folder" index="1"><summary><span>题目2</span></summary><div class="body"><p>这是答案2</p></div></details><details class="folder" index="2"><summary><span>题目3</span></summary><div class="body"><p>这是答案3</p></div></details></div>
+
+
 <h3 id="备案，域名"><a href="#备案，域名" class="headerlink" title="备案，域名"></a>备案，域名</h3><p>选择了GitHub page来部署的，国外的服务器就没备案了。</p>
 <p>vercel 部署是真的方便，直接用源码的仓库，就能实现部署了，也不用写什么yaml file </p>
 <p>可惜被墙了，遂放弃，所以改用了国内偶尔也能访问的GitHub。</p>
@@ -154,29 +156,27 @@
 <h3 id="中英文字体大小不一样的问题"><a href="#中英文字体大小不一样的问题" class="headerlink" title="中英文字体大小不一样的问题"></a>中英文字体大小不一样的问题</h3><p>因为换了字体，中英文字体大小不一致。<br>做了以下处理<br>对于英文博客，在正文前加上标签<code>&lt;span lang=&#39;en&#39;&gt;</code>，<br>中文博客，对正文和标题的英文部分加上span标签，但是对于代码和强调的内容，使用md的语法&#96;&#96;来表示。</p>
 <h2 id="集成但还没记录的功能"><a href="#集成但还没记录的功能" class="headerlink" title="集成但还没记录的功能"></a>集成但还没记录的功能</h2><div class="tag-plugin checkbox" ><input type="radio" checked="true"/><span>侧边栏</span></div>
 <div class="tag-plugin checkbox" ><input type="radio" checked="true"/><span><span class=heimu data-title=你知道的太多了>黑历史</span> 萌百科的字体透明效果</span></div>
-<div class="tag-plugin checkbox" ><input type="radio" checked="true"/><span>GitHub action</span></div>
 <div class="tag-plugin checkbox" ><input type="radio" checked="true"/><span>blockquote 独对p进行处理，并使用import来修饰，强调第一重要不被其他文件改写</span></div>
 <div class="tag-plugin checkbox" ><input type="radio" checked="true"/><span>还有整个的md styl 关于标题，标题文字的动态效果,所有的标题的前面的符号</span></div>
+<div class="tag-plugin checkbox" ><input type="radio" checked="true"/><span>代码的复制图标和折叠功能 fontawesome</span></div>
 
 
-
+<p><code>&#123;% folding child:codeblock   color:yellow 全部代码 %&#125;
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> closeText = <span class="string">&#x27;&lt;i class=&quot;fa-solid fa-angles-up  fa-beat-fade&quot;&gt;&lt;/i&gt;&#x27;</span>;<span class="number">11</span></span><br></pre></td></tr></table></figure>
+&#123;% endfolding %&#125;</code></p>
 <h2 id="未集成的功能"><a href="#未集成的功能" class="headerlink" title="未集成的功能"></a>未集成的功能</h2><div class="tag-plugin checkbox" ><input type="radio"/><span>以前的旧博客迁移</span></div>
+<div class="tag-plugin checkbox" ><input type="radio"/><span>stellar.yml 里面对tag Plugin 的设置，比如quote的prefix 等等</span></div>
 <div class="tag-plugin checkbox" ><input type="radio"/><span>笔记部分加入喜欢的游戏和专辑，艺术家作家诗人等等</span></div>
-<div class="tag-plugin checkbox" ><input type="radio"/><span>评论区waline</span></div>
-<div class="tag-plugin checkbox" ><input type="radio"/><span>专门做一个个人笔记页面</span></div>
-<div class="tag-plugin checkbox" ><input type="radio"/><span>把常用的脚本放到snippet_stash 仓库里面</span></div>
-<div class="tag-plugin checkbox" ><input type="radio"/><span>底部导航，公开源码</span></div>
-<div class="tag-plugin checkbox" ><input type="radio"/><span>再看一遍hexo的文档和其他stellar博客的定制，以及新的特性探索，还有最新版本的update</span></div>
-<div class="tag-plugin checkbox" ><input type="radio"/><span>其他hexo里面好用的插件</span></div>
+<div class="tag-plugin checkbox" ><input type="radio"/><span>友链 评论区waline</span></div>
+<div class="tag-plugin checkbox" ><input type="radio"/><span>专门做一个个人笔记页面,当做笔记软件使用</span></div>
+<div class="tag-plugin checkbox" ><input type="radio"/><span>再看一遍hexo的文档和其他stellar博客的定制，以及新的特性探索，还有最新版本的update，其他hexo里面好用的插件</span></div>
 <div class="tag-plugin checkbox" ><input type="radio"/><span>收集其他的blob表情包到自己的仓库</span></div>
-<div class="tag-plugin checkbox" ><input type="radio"/><span>友链</span></div>
 <div class="tag-plugin checkbox" ><input type="radio"/><span>记录下技术相关的折腾 GitHub codespace，readme ，ChatGPT next web</span></div>
-<div class="tag-plugin checkbox" ><input type="radio"/><span>promotion of myblog to other ppl</span></div>
-<div class="tag-plugin checkbox" ><input type="radio"/><span>收录面试的问题，用qa的容器模块表示</span></div>
-<div class="tag-plugin checkbox" ><input type="radio"/><span>通用模板的设置调整</span></div>
+<div class="tag-plugin checkbox" ><input type="radio"/><span>promotion of myblog to other ppl n write against cancel culture 底部导航，公开源码</span></div>
+<div class="tag-plugin checkbox" ><input type="radio"/><span>收录面试的问题，用qa的容器模块表示，系统化整理面试遇到的问题和处理方案。在那之前先看下视频，别人的经验等等</span></div>
 <div class="tag-plugin checkbox" ><input type="radio"/><span>自动化处理字体大小的功能，自动调用Python文件</span></div>
 
-<h2 id="进行中"><a href="#进行中" class="headerlink" title="进行中"></a>进行中</h2><div class="tag-plugin checkbox" ><input type="radio"/><span>代码的复制图标和折叠功能 fontawesome</span></div>
+<h2 id="进行中"><a href="#进行中" class="headerlink" title="进行中"></a>进行中</h2><div class="tag-plugin checkbox" ><input type="radio"/><span>通用模板的设置调整</span></div>
 
 <h2 id="个人配置"><a href="#个人配置" class="headerlink" title="个人配置"></a>个人配置</h2><p>cover 和banner 都适用本地的图片，暂时用喜欢的画。不要用poster 海报模式，显得太大了，试了调过尺寸还是不太美观。</p>
 <p>blockquote引用字体样式设置，所有的页面设置都在css目录里面，比如blockquote.styl<br>用blockquote的样式表达对话</p>
@@ -199,6 +199,8 @@
 <li>rebeccapurple</li>
 </ul>
 <p>在stellar的widgets.yml 对组件就行设置，需要在md文件的开头声明使用哪些文件。</p>
+<p>把功能性的需求先完成，样式可以再优化</p>
+<p>在_custom.styl 里设置页面的css，比如按钮相关的颜色。也可以先在页面的css网格中改，之后再加到代码里。 </p>
 
 
 <div class="article-footer reveal fs14"><section id="license"><div class="header"><span>许可协议</span></div><div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
@@ -439,143 +441,10 @@
     new bubbleCursor();
 </script>
 <!-- hexo injector body_end start -->
-<head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-OE3sGz9hXh5PrYx1nloDUfzcTYhZWDM80LaKd32FZuhCXWvU3LuUdIhpuC5otQFdC5sveZEpQIv2bF0Gz/J2xQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <style>
  
-code[class*="language-"],
-pre[class*="language-"] {
-color: #f92aad;
-text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
-background: none;
-font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-font-size: 1em;
-text-align: left;
-white-space: pre;
-word-spacing: normal;
-word-break: normal;
-word-wrap: normal;
-line-height: 1.5;
+<style>
 
--moz-tab-size: 4;
--o-tab-size: 4;
-tab-size: 4;
-
--webkit-hyphens: none;
--moz-hyphens: none;
--ms-hyphens: none;
-hyphens: none;
-}
-/* Code blocks */
-pre[class*="language-"] {
-padding: 1em;
-margin: .5em 0;
-overflow: auto;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-background-color: transparent !important;
-background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-padding: .1em;
-border-radius: .3em;
-white-space: normal;
-}
-
-.token.comment,
-.token.block-comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-color: #8e8e8e;
-}
-
-.token.punctuation {
-color: #ccc;
-}
-
-.token.tag,
-.token.attr-name,
-.token.namespace,
-.token.number,
-.token.unit,
-.token.hexcode,
-.token.deleted {
-color: #e2777a;
-}
-
-.token.property,
-.token.selector {
-color: #72f1b8;
-text-shadow: 0 0 2px #100c0f, 0 0 10px #257c5575, 0 0 35px #21272475;
-}
-
-.token.function-name {
-color: #6196cc;
-}
-
-.token.boolean,
-.token.selector .token.id,
-.token.function {
-color: #fdfdfd;
-text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975;
-}
-
-.token.class-name {
-color: #fff5f6;
-text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75;
-}
-
-.token.constant,
-.token.symbol {
-color: #f92aad;
-text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
-}
-
-.token.important,
-.token.atrule,
-.token.keyword,
-.token.selector .token.class,
-.token.builtin {
-color: #f4eee4;
-text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
-}
-
-.token.string,
-.token.char,
-.token.attr-value,
-.token.regex,
-.token.variable {
-color: #f87c32;
-}
-
-.token.operator,
-.token.entity,
-.token.url {
-color: #67cdcc;
-}
-
-.token.important,
-.token.bold {
-font-weight: bold;
-}
-
-.token.italic {
-font-style: italic;
-}
-
-.token.entity {
-cursor: help;
-}
-
-.token.inserted {
-color: green;
-}
+ 
 
 
     .highlight {
@@ -586,52 +455,54 @@ color: green;
       top: 0;
       right: 0;
       padding: 4px 0.5rem;
-      opacity: 1;
-      /*font-weight: 700;*/
-      color: orchid;
+      opacity: 0.25;
+      font-weight: 700;
+      color: springgreen;
       cursor: pointer;
       transination: opacity 0.3s;
-      font-size: 1rem;
     }
     .highlight .code .copy-btn:hover{
-      color: var(--text-code);
+      color: cyan;
       opacity: 0.75;
     }
     .highlight .code .copy-btn.success {
-      color: var(--swiper-theme-color);
+      color: cyan;
       opacity: 0.75;
 
     }
+    
+     
 
+    
   </style>
   <script>
-    // ori code 
-    
-    const codeElementArr = document.querySelectorAll('.code')
+ const codeElementArr = document.querySelectorAll('.code')
     codeElementArr.forEach(code => {
       const codeBeforeWidth = window.getComputedStyle(code, '::before').width.split('px')[0]
       const codeBeforePadding = window.getComputedStyle(code, '::before').padding.split(' ').pop().split('px')[0]
-    
-      // copy btn
+  
+      // copy btn 
       const codeCopyBtn = document.createElement('div')
       codeCopyBtn.classList.add('copy-btn')
       codeCopyBtn.style.right = Number(codeBeforeWidth) + Number(codeBeforePadding) * 2 + 'px'
-      codeCopyBtn.innerHTML = '<i class="fas fa-copy"></i>';
-
+      codeCopyBtn.innerText = 'copy'
+      code.appendChild(codeCopyBtn)
+  
       codeCopyBtn.addEventListener('click', async () => {
         const currentCodeElement = code.children[0]?.innerText
         await copyCode(currentCodeElement)
-        
-        codeCopyBtn.innerText = 'Copied!'
+
+
+        codeCopyBtn.innerText = 'copy'
         codeCopyBtn.classList.add('success')
 
         setTimeout(() => {
-          codeCopyBtn.innerText = 'copy'
+          codeCopyBtn.innerText = 'copied'
           codeCopyBtn.classList.remove('success')
-        },1000)
+        },10)
       })
     })
-
+    
     async function copyCode(currentCode) {
       console.log(currentCode)
       console.log('copy')
@@ -646,9 +517,9 @@ color: green;
         console.error('当前浏览器不支持此api')
       }
     }
+
   </script>
   
-  </head>
-  
+   
   <!-- hexo injector body_end end --></body>
 </html>
