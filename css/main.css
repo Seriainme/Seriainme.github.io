@@ -2413,6 +2413,29 @@ details.folding[child=iframe] >div.body {
   transform: translateY(-1px);
   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
 }
+.heimu {
+  display: inline-block; /* 将元素设为弹性盒子 */
+  text-align: center;
+  position: relative;
+  background-color: #000;
+  color: #000;
+  padding: 0.2em;
+  border-radius: 5px;
+  height: 22px; /* 定义一个固定高度 */
+  text-shadow: none;
+/* 添加过渡效果 */
+  transition: background-color 0.3s, color 0.3s;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+}
+.heimu:hover {
+  background-color: #000;
+  color: #00ff7f;
+  text-shadow: none;
+}
+.heimu span {
+  display: inline-block;
+  vertical-align: middle;
+}
 .tag-plugin.image {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -5060,29 +5083,6 @@ h1.article-title {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
-}
-.heimu {
-  display: inline-block; /* 将元素设为弹性盒子 */
-  text-align: center;
-  position: relative;
-  background-color: #000;
-  color: #000;
-  padding: 0.2em;
-  border-radius: 5px;
-  height: 22px; /* 定义一个固定高度 */
-  text-shadow: none;
-/* 添加过渡效果 */
-  transition: background-color 0.3s, color 0.3s;
-  -webkit-transition: background-color 0.3s, color 0.3s;
-}
-.heimu:hover {
-  background-color: #000;
-  color: #00ff7f;
-  text-shadow: none;
-}
-.heimu span {
-  display: inline-block;
-  vertical-align: middle;
 }
 .posts-expand .post-title-link::before {
   background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
