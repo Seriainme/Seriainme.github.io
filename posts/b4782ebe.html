@@ -54,7 +54,7 @@
 <meta property="og:description" content="Here&#39;s something encrypted, password is required to continue reading.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-04-13T04:00:00.000Z">
-<meta property="article:modified_time" content="2023-05-19T10:00:05.281Z">
+<meta property="article:modified_time" content="2023-05-22T09:07:34.094Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="dwelling in the past">
 <meta name="twitter:card" content="summary_large_image">
@@ -97,7 +97,33 @@
 
   
 
-<header class="header"><div class="logo-wrap"><a class="avatar" href="/images/mkmk.webp"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="/images/mkmk.webp" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/image/2659360.svg';"></a><a class="title" href=""><div class="main" ff="title">Morel's blog of</div><div class="sub normal cap" style="color:fuchsia; font-size: 30px;font-weight:bold;"  >a fine frenzy</div><div class="sub hover cap" style="opacity:0;font-size: 25px;color:mediumspringgreen;font-weight:bold;">flowing tenderness</div></a></div>
+<header class="header"><div class="logo-wrap"><a class="avatar" href="/images/mkmk.webp"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="/images/mkmk.webp" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/image/2659360.svg';"></a><a class="title" href=""><div class="main" ff="title">Morel's blog of</div><div class="sub cap" id="colortap1" style="font-size: 30px;font-weight:bold;   background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); -webkit-background-clip: text; color: transparent;">a fine frenzy</div><script>
+    var colortap = function (r) {
+	function t() {return b[Math.floor(Math.random() * b.length)]}
+	function e() {return String.fromCharCode(94 * Math.random() + 33)}
+	function n(r) {
+		for(var n=document.createDocumentFragment(),i=0;r>i;i++){
+			var l=document.createElement("span");
+			l.textContent=e(),l.style.color=t(),n.appendChild(l)
+		}
+		return n;
+	}
+	function i() {
+		var t = o[c.skillI];
+		c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")),
+		r.textContent = c.text,
+		r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))),
+		setTimeout(i, d)
+	}
+	var l = "",
+	o = [" a fine frenzy","flowing tenderness"].map(function (r) {return r + ""}),
+	a = 2,g = 1,s = 5,d = 75,
+	b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"],
+	c = {text: "",prefixP: -s,skillI: 0,skillP: 0,direction: "forward",delay: a,step: g};i()
+};
+colortap(document.getElementById('colortap1'));
+</script>
+</a></div>
 
 <nav class="menu dis-select"><a class="nav-item active" href="/"  style="color: blueviolet; font-size: 26px;">posts</a><a class="nav-item" href="/notes/"  style="color: blueviolet; font-size: 26px;">notes</a><a class="nav-item" href="/about/"  style="color: blueviolet; font-size: 26px;">me</a></nav>
 </header>
