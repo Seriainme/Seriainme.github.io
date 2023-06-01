@@ -110,6 +110,12 @@ blockquote {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'FiraCode-Light';
+  src: url("/font/FiraCode-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 :root {
   --width-left: 288px;
   --width-main: 2020px;
@@ -5131,6 +5137,7 @@ h1.article-title {
 }
 .md-text p {
   font-size: 1em;
+  font-family: 'FiraCode-Light', 'SmileySans-Oblique';
 }
 .md-text p span[lang="en"] {
   font-size: 1.5em;
