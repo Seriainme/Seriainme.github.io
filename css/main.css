@@ -5094,10 +5094,10 @@ h1.article-title {
 }
 .md-text.content h2 a.headerlink:before {
   display: inline-block;
-  content: '.';
   width: 50px;
   height: 50px;
-  background-image: url("/images/frog.png");
+  content: '🔮';
+  color: #8a2be2;
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -5105,12 +5105,21 @@ h1.article-title {
   border-left: 4px solid #0ff;
   margin-top: 2rem;
   border-bottom: 1px solid var(--block-border);
-  font-weight: 400;
-  color: #00ff7f;
+  font-size: 1.7rem;
+  color: #4b0082;
+}
+.md-text.content h3 a.headerlink:before {
+  display: inline-block;
+  width: 20px;
+  height: 50px;
+  content: '|';
+  color: #ffc0cb;
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 .md-text.content h3 {
   margin-top: 1.5rem;
-  font-weight: 400;
+  font-size: 1.2rem;
   color: #ffc0cb;
 }
 .md-text.content h4,
