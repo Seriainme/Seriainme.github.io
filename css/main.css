@@ -4960,6 +4960,7 @@ h1.article-title {
   margin-bottom: 1em;
   line-height: 1.2;
   color: var(--text-p0);
+  font-family: 'ReenieBeanie-Regular';
 }
 .md-text.content {
   position: relative;
