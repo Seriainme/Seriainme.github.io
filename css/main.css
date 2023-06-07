@@ -11,11 +11,11 @@ h6 {
   color: #000;
 }
 ::selection {
-  background: #9acd32;
+  background: #f6a6ab;
   color: #f7f7f7;
 }
 ::-moz-selection {
-  background: #9acd32;
+  background: #f6a6ab;
   color: #f7f7f7;
 }
 del {
