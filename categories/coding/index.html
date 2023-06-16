@@ -364,6 +364,10 @@ colortap(document.getElementById('colortap1'));
 
     new bubbleCursor();
 </script>
+
+<div class="reading-progress-bar" style="width: 0%;"></div>
+
+
 <!-- hexo injector body_end start -->
  
 <style>
@@ -446,5 +450,23 @@ colortap(document.getElementById('colortap1'));
   </script>
   
    
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(window).off('scroll');
+    var o = $('.reading-progress-bar');
+    $(window).on('scroll', function (e) {
+      e.stopPropagation();
+      var t = $(window).height();
+      var n = $('body').height();
+      var r = n - t;
+      window.requestAnimationFrame(function () {
+        var scrollProgress = Math.max(0, Math.min(1, $(window).scrollTop() / r));
+        o.css('width', 100 * scrollProgress + '%');
+      });
+    });
+  </script>
+
+
   <!-- hexo injector body_end end --></body>
 </html>
