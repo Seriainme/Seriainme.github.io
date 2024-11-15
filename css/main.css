@@ -145,7 +145,7 @@ blockquote {
   height: 4px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(45deg, #ffc0cb, #ee82ee, #ff0, #40d968);
+  background: linear-gradient(45deg, #37c6c0);
 }
 :root {
   --site-bg: #e9ebfe;
