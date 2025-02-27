@@ -4959,7 +4959,7 @@ h1.article-title {
   margin-bottom: 1em;
   line-height: 1.2;
   color: var(--text-p0);
-  font-family: 'ReenieBeanie-Regular';
+  font-family: 'NovaMono-Regular';
 }
 .md-text.content {
   position: relative;
@@ -5148,11 +5148,11 @@ h1.article-title {
   font-family: 'FiraCode-Light', 'SmileySans-Oblique';
 }
 .md-text p span[lang="en"] {
-  font-family: ReenieBeanie-Regular;
+  font-family: NovaMono-Regular;
   font-size: 1.5em;
 }
 .md-text span[lang="en"] {
-  font-family: ReenieBeanie-Regular;
+  font-family: NovaMono-Regular;
   font-size: 1.5em;
 }
 .md-text pre {
