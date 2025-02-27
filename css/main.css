@@ -90,6 +90,12 @@ blockquote {
 }
 @font-face {
   font-family: 'ReenieBeanie-Regular';
+  src: url("/font/ReenieBeanie-Regular.ttf");
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NovaMono-Regular';
   src: url("/font/NovaMono-Regular.ttf");
   font-weight: bolder;
   font-style: normal;
